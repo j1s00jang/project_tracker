@@ -1,0 +1,516 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  --background: #ffffff;
+  --foreground: oklch(0.145 0 0);
+  --card: #ffffff;
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: #030213;
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.95 0.0058 264.53);
+  --secondary-foreground: #030213;
+  --muted: #ececf0;
+  --muted-foreground: #717182;
+  --accent: #e9ebef;
+  --accent-foreground: #030213;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(0, 0, 0, 0.1);
+  --input: transparent;
+  --input-background: #f3f3f5;
+  --switch-background: #cbced4;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: #030213;
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.145 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.145 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.269 0 0);
+  --input: oklch(0.269 0 0);
+  --ring: oklch(0.439 0 0);
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(0.269 0 0);
+  --sidebar-ring: oklch(0.439 0 0);
+}
+
+@theme inline {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  /**
+  * Default typography styles for HTML elements (h1-h4, p, label, button, input).
+  * These are in @layer base, so Tailwind utility classes (like text-sm, text-lg) automatically override them.
+  */
+
+  html {
+    font-size: var(--font-size);
+    font-family: var(--font-sans);
+  }
+
+  h1 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h4 {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  label {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  button {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  input {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-normal);
+    line-height: 1.5;
+  }
+}
+
+/* Primary blue (#3170ad) buttons — slightly darker on hover */
+:root {
+  --primary-blue: #3170ad;
+  --primary-blue-hover: #286599;
+}
+
+[data-name="Button:shadow"][class*="3170ad"],
+[class*="3170ad"][data-name="Button"],
+[class*="3170ad"][data-name="Save btn"],
+[class*="3170ad"][data-name="Add member btn"],
+[class*="3170ad"][data-name="WBS Templates Tab"],
+button[data-primary-blue] {
+  transition: background-color 0.15s ease;
+}
+
+[data-name="New Project btn"]:hover [data-name="Button:shadow"][class*="3170ad"],
+[data-name="New btn"]:hover [data-name="Button:shadow"][class*="3170ad"],
+[data-name="On/Off boarding toggle"] [data-name="Button"]:hover [data-name="Button:shadow"][class*="3170ad"],
+[class*="3170ad"][data-name="Button"]:hover,
+[class*="3170ad"][data-name="Save btn"]:hover,
+[class*="3170ad"][data-name="Add member btn"]:hover,
+[class*="3170ad"][data-name="WBS Templates Tab"]:hover,
+button[data-primary-blue]:hover {
+  background-color: var(--primary-blue-hover) !important;
+}
+
+/* Nav tab cursors */
+[data-name="Logo & Name Container"],
+[data-name="New Project btn"],
+[data-name="New btn"],
+[data-name="Edit btn"],
+[data-name="Fit btn"],
+[data-name="Link Tasks btn"],
+[data-name="Dashboard Tab"],
+[data-name="Projects"],
+[data-name="Templates"],
+[data-name="Templates btn"],
+[data-name="Add member btn"],
+[data-name="Filter Dropdown"],
+[data-name="Save btn"],
+[data-name="Projects Tracker"],
+[data-name="View Tasks"],
+[data-name="Tasks Tracker"],
+[data-name="Timeline Chart"],
+[data-name="Project Mobilization"],
+[data-name="Project Members"],
+[data-name="Members Calendar"],
+[data-name="Data Upload"],
+[data-name="Configuration"],
+[data-name="Tab-PMs"],
+[data-name="Tab-Members"],
+[data-name="Help"] {
+  cursor: pointer;
+}
+
+/* "Completed Nav Bars" sits on top of Main and blocks mouse events in the content area.
+   Pass events through the overlay itself, but keep the actual nav elements interactive. */
+[data-name="Completed Nav Bars"] {
+  pointer-events: none;
+}
+
+/* Nav bars are rendered in fixed overlay layers; hide duplicates inside scrollable content */
+[data-scroll-content] [data-name="Completed Nav Bars"] {
+  display: none !important;
+}
+
+[data-name="Left Nav"],
+[data-name="Top Nav Bar"],
+[data-name="top nav bar"],
+[data-name="Logo & Name Container"] {
+  pointer-events: auto;
+}
+
+/* Hide outer borders on fixed-size nav panels so they don't show when bars stretch */
+[data-name="top nav bar"] > [aria-hidden] {
+  border-right: none !important;
+}
+
+[data-name="Left Nav"] > [aria-hidden] {
+  border-bottom: none !important;
+}
+
+/* Hide static Figma top-nav search; replaced by real input in App.tsx */
+[data-name="Top Nav Bar"] [data-name="Search Bar"] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+[data-name="Top Nav Bar"] [data-name="Dark mode"],
+[data-name="Top Nav Bar"] [data-name="Notifications"],
+[data-name="Top Nav Bar"] [data-name="PM"],
+[data-name="Top Nav Bar"] [data-name="Profile"],
+[data-name="Top Nav Bar"] [data-name="Dark mode"] *,
+[data-name="Top Nav Bar"] [data-name="Notifications"] *,
+[data-name="Top Nav Bar"] [data-name="PM"] *,
+[data-name="Top Nav Bar"] [data-name="Profile"] * {
+  cursor: pointer;
+}
+
+/* Hide static Figma projects filter row; replaced by real controls in App.tsx */
+[data-name="Filter + Search bar"] {
+  display: none !important;
+}
+
+/* Hide static Figma mobilization search; replaced by real input in App.tsx */
+[data-name="v2 - 07 mobilization"] [data-name="Search Bar"] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+[data-name="v2 - 07 mobilization"] [data-name="On/Off boarding toggle"] > [data-name="Button"],
+[data-name="v2 - 07 mobilization"] [data-name="On/Off boarding toggle"] > div:not([data-name]),
+[data-name="v2 - 07 mobilization"] [data-name="Project/Members Toggle"] > [data-name="Button"],
+[data-name="v2 - 07 mobilization"] [data-name="Delete Icon"] {
+  cursor: pointer;
+}
+
+[data-name="v2 - 07 mobilization"] [data-name="Delete Icon"] * {
+  cursor: pointer;
+}
+
+/* Hide static Figma members search; replaced by real input in App.tsx */
+[data-name="v2 - 08 members"] [data-name="Search Bar"] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+[data-name="v2 - 08 members"] [data-name="Add member btn"] *,
+[data-name="v2 - 08 members"] [data-name="Filter Dropdown"] * {
+  cursor: pointer;
+}
+
+[data-search-field] input::placeholder {
+  color: #737373;
+  opacity: 1;
+}
+
+/* Hide static Figma template tabs; replaced by interactive tabs in App.tsx */
+[data-name="Toggle Tabs"] {
+  display: none !important;
+}
+
+[data-templates-tab-bar] {
+  background: #ffffff;
+  border: 1px solid #d5e1ff;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+[data-templates-tab-bar] button {
+  font-size: 13px !important;
+  line-height: 20px !important;
+}
+
+[data-name="Active Card 1"],
+[data-name="Active Card 2"],
+[data-name="Completed Card"],
+[data-name="Upcoming Deadlines"],
+[data-name="Unfilled Roles"],
+[data-name="Over Capacity"] {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+[data-name="Active Card 1"],
+[data-name="Active Card 2"],
+[data-name="Completed Card"],
+[data-name="Warning Card"],
+[data-name="Dashboard All link"],
+[data-name="Dashboard Projects link"],
+[data-name="Dashboard Calendar link"] {
+  cursor: pointer;
+}
+
+[data-name="Active Card 1"]:hover,
+[data-name="Active Card 2"]:hover,
+[data-name="Completed Card"]:hover,
+[data-name="Upcoming Deadlines"]:hover,
+[data-name="Unfilled Roles"]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(49, 112, 173, 0.12);
+}
+
+[data-name="Over Capacity"]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(201, 42, 42, 0.1);
+}
+
+/* Projects Tracker — fixed header, currently-tracking card, and filters in overlay */
+[data-scroll-content] [data-name="v2 - 04 projects tracker"] [data-name="Header"],
+[data-scroll-content] [data-name="v2 - 04 projects tracker"] [data-name="Project"],
+[data-scroll-content] [data-name="v2 - 04 projects tracker"] [data-name="All Phases"],
+[data-scroll-content] [data-name="v2 - 04 projects tracker"] [data-name="All Types"],
+[data-scroll-content] [data-name="v2 - 04 projects tracker"] [data-name="All Statues"],
+[data-scroll-content] [data-name="v2 - 04 projects tracker"] [data-name="Sort"] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Decorative layout grid sits above Main in paint order — don't block clicks/hover */
+[data-name="v2 - 04 projects tracker"] [data-name="grid"] {
+  pointer-events: none;
+}
+
+/* Assign member / assign role links in task table rows */
+[data-name="v2 - 04 projects tracker"] [data-name="Tasks Row"] > div[class*="5803cf"],
+[data-name="v2 - 04 projects tracker"] [data-name="Tasks Row"] > div[class*="rgba(88,3,207,0.42)"],
+[data-name="v2 - 05 task tracker"] [data-name="Tasks Row"] > div[class*="5803cf"],
+[data-name="v2 - 05 task tracker"] [data-name="Tasks Row"] > div[class*="rgba(88,3,207,0.42)"] {
+  cursor: pointer;
+}
+
+/* Hide static dropdown mocks; replaced by interactive dropdowns in App.tsx */
+[data-name="v2 - 04 projects tracker"] [data-name="All Phases"],
+[data-name="v2 - 04 projects tracker"] [data-name="All Types"],
+[data-name="v2 - 04 projects tracker"] [data-name="All Statues"],
+[data-name="v2 - 04 projects tracker"] [data-name="Sort"],
+[data-name="v2 - 04 projects tracker"] [data-name="Header"] > [data-name="Button"]:last-of-type {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+[data-name="v2 - 04 projects tracker"] [data-name="View Tasks"] {
+  pointer-events: none;
+}
+
+/* Hide static table status chips; replaced by interactive dropdowns in App.tsx */
+[data-name="v2 - 04 projects tracker"] [data-name="Tasks Row"] > [data-name="Status"],
+[data-name="v2 - 04 projects tracker"] [data-name="Project Tasks Table Row"] > [data-name="Status"],
+[data-name="v2 - 05 task tracker"] [data-name="Tasks Row"] > [data-name="Status"],
+[data-name="v2 - 05 task tracker"] [data-name="Tasks Row"] > [data-name="Status Dropdown"] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Tasks Tracker — hide static dropdown mocks; replaced by interactive dropdowns in App.tsx */
+[data-name="v2 - 05 task tracker"] [data-name="Header"] > [data-name="Dropdown"],
+[data-name="v2 - 05 task tracker"] [data-name="Tasks Header"] > [data-name="Button"] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+[data-name="v2 - 05 task tracker"] [data-name="View Tasks"] {
+  pointer-events: none;
+}
+
+/* Timeline Chart — hide static project dropdown; replaced by interactive dropdown in App.tsx */
+[data-name="v2 - 06 timeline chart"] [data-name="Projects Dropdown"] [data-name="Dropdown"] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+[data-name="v2 - 06 timeline chart"] [data-name="Monthly / Weekly / Daily"] > [data-name="Button"] {
+  cursor: pointer;
+}
+
+/* Timeline Chart — truncate task and bar labels before right edge */
+[data-name="v2 - 06 timeline chart"] [data-name="Task Table"] [data-name="Container"][class*="-translate-y-1/2"] {
+  right: 12px;
+  width: auto !important;
+  overflow: hidden;
+}
+
+[data-name="v2 - 06 timeline chart"] [data-name="Main"] > [data-name="Background"] {
+  overflow: hidden;
+}
+
+[data-name="v2 - 06 timeline chart"] [data-name="Task Table"] [data-name="Container"] span,
+[data-name="v2 - 06 timeline chart"] [data-name="Background"] [data-name="Container"] span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+[data-name="v2 - 04 projects tracker"] [data-name="horizontal scroll bar"] {
+  display: none !important;
+}
+
+/* Members Calendar — hide static toolbar mocks; replaced by fixed controls in App.tsx */
+[data-scroll-content] [data-name="v2 - 09 members calendar"] [data-name="Header"],
+[data-name="v2 - 09 members calendar"] [data-name="Daily/Weekly/Monthly"],
+[data-name="v2 - 09 members calendar"] [data-name="Month"],
+[data-name="v2 - 09 members calendar"] [data-name="Time off btn"],
+[data-name="v2 - 09 members calendar"] [data-name="Add Members btn"],
+[data-name="v2 - 09 members calendar"] [data-name="Utilization chips"] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+[data-name="v2 - 09 members calendar"] [data-name="horizontal scroll bar"] {
+  display: none !important;
+}
+
+[data-name="v2 - 09 members calendar"] [data-name="Data Table"] {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+[data-name="v2 - 09 members calendar"] [data-name="Data Table"]::-webkit-scrollbar {
+  display: none;
+}
+
+[data-name="Cards Section"] [data-name="Card"] {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+[data-name="Cards Section"] [data-name="Card"]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(49, 112, 173, 0.12);
+}
+
+[data-name="v2 - 10 data upload"] [data-name="Members"],
+[data-name="v2 - 10 data upload"] [data-name="WBS Items"],
+[data-name="v2 - 10 data upload"] [data-name="Resource"],
+[data-name="v2 - 10 data upload"] [data-name="Members"] *,
+[data-name="v2 - 10 data upload"] [data-name="WBS Items"] *,
+[data-name="v2 - 10 data upload"] [data-name="Resource"] * {
+  cursor: pointer;
+}
+
+[data-name="v2 - 11.01. settings - PMs"] [data-name="Button - Remove"],
+[data-name="v2 - 11.01. settings - PMs"] [data-name="Button - Remove"] *,
+[data-name="v2 - 11.01. settings - PMs"] [data-name="Data"] > [data-name="Button"],
+[data-name="v2 - 11.01. settings - PMs"] [data-name="Data"] > [data-name="Button"] *,
+[data-name="v2 - 11.01. settings - PMs"] [data-name="Save btn"] *,
+[data-name="v2 - 11.02. settings / Members"] [data-name="Developers"] > [data-name="SVG"],
+[data-name="v2 - 11.02. settings / Members"] [data-name="Developers"] > [data-name="SVG"] *,
+[data-name="v2 - 11.02. settings / Members"] [data-name="Data"] > [data-name="Button"],
+[data-name="v2 - 11.02. settings / Members"] [data-name="Data"] > [data-name="Button"] *,
+[data-name="v2 - 11.02. settings / Members"] [data-name="Save btn"] * {
+  cursor: pointer;
+}
