@@ -281,6 +281,106 @@ button[data-primary-blue]:hover {
   cursor: pointer;
 }
 
+/* Top nav — increase icon labels and profile email (Figma default 8px) */
+[data-name="Top Nav Bar"] [data-name="Dark mode"] [class*="text-[8px]"],
+[data-name="Top Nav Bar"] [data-name="Notifications"] [class*="text-[8px]"],
+[data-name="Top Nav Bar"] [data-name="PM"] [class*="text-[8px]"],
+[data-name="Top Nav Bar"] [data-name="icons + profile"] p[class*="text-[8px]"] {
+  font-size: 10px !important;
+  line-height: 13px !important;
+}
+
+/* Top nav — icon + label columns (match Figma: dividers, centered icons, aligned labels) */
+[data-name="Top Nav Bar"] [data-name="icons + profile"],
+[data-name="Top Nav Bar"] [data-name="Icons"] {
+  overflow: visible !important;
+}
+
+[data-name="Top Nav Bar"] [data-name="Icons"] {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 0 !important;
+}
+
+[data-name="Top Nav Bar"] [data-name="PM"] {
+  order: 1;
+}
+
+[data-name="Top Nav Bar"] [data-name="Notifications"] {
+  order: 2;
+}
+
+[data-name="Top Nav Bar"] [data-name="Dark mode"] {
+  order: 3;
+}
+
+[data-name="Top Nav Bar"] [data-name="Dark mode"],
+[data-name="Top Nav Bar"] [data-name="Notifications"],
+[data-name="Top Nav Bar"] [data-name="PM"] {
+  display: block !important;
+  position: relative !important;
+  flex-shrink: 0 !important;
+  box-sizing: border-box !important;
+  min-width: 84px !important;
+  min-height: 56px !important;
+  padding: 0 12px !important;
+  margin-left: 0 !important;
+  overflow: visible !important;
+}
+
+[data-name="Top Nav Bar"] [data-name="PM"],
+[data-name="Top Nav Bar"] [data-name="Notifications"] {
+  border-right: 1px solid #f3f4f6 !important;
+}
+
+[data-name="Top Nav Bar"] [data-name="Dark mode"] > .col-1.flex[class*="h-[56px]"],
+[data-name="Top Nav Bar"] [data-name="Notifications"] > .col-1.flex[class*="h-[56px]"],
+[data-name="Top Nav Bar"] [data-name="PM"] > .col-1.flex[class*="h-[56px]"] {
+  display: none !important;
+}
+
+[data-name="Top Nav Bar"] [data-name="Dark mode"] > [data-name="Vector"],
+[data-name="Top Nav Bar"] [data-name="Notifications"] > [data-name="Vector"] {
+  position: absolute !important;
+  margin: 0 !important;
+  left: 50% !important;
+  top: 14px !important;
+  transform: translateX(-50%) !important;
+}
+
+/* PM View eye = eye outline + pupil; center both on column midpoint */
+[data-name="Top Nav Bar"] [data-name="PM"] > [data-name="Vector"] {
+  position: absolute !important;
+  margin: 0 !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+[data-name="Top Nav Bar"] [data-name="PM"] > [data-name="Vector"]:nth-child(4) {
+  top: 13px !important;
+  width: 17.917px !important;
+  height: 14.583px !important;
+}
+
+[data-name="Top Nav Bar"] [data-name="PM"] > [data-name="Vector"]:nth-child(3) {
+  top: 17px !important;
+  width: 6.25px !important;
+  height: 6.25px !important;
+}
+
+[data-name="Top Nav Bar"] [data-name="Dark mode"] > [class*="mt-[35px]"],
+[data-name="Top Nav Bar"] [data-name="Notifications"] > [class*="mt-[35px]"],
+[data-name="Top Nav Bar"] [data-name="PM"] > [class*="mt-[35px]"] {
+  position: absolute !important;
+  left: 50% !important;
+  top: 35px !important;
+  margin: 0 !important;
+  transform: translateX(-50%) !important;
+  text-align: center !important;
+  width: max-content !important;
+}
+
 /* Hide static Figma projects filter row; replaced by real controls in App.tsx */
 [data-name="Filter + Search bar"] {
   display: none !important;
