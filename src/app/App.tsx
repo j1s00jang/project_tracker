@@ -1670,12 +1670,12 @@ function TemplatesTabBar({
       aria-label="Template categories"
       onClick={(event) => event.stopPropagation()}
       style={{
-        position: "fixed",
+        position: "absolute",
         left: TEMPLATES_TAB_LEFT,
         top: TEMPLATES_TAB_TOP,
         width: TEMPLATES_TAB_WIDTH,
         height: TEMPLATES_TAB_HEIGHT,
-        zIndex: 35,
+        zIndex: 20,
         pointerEvents: "auto",
       }}
     >
@@ -1834,10 +1834,6 @@ export default function App() {
       </div>
 
       <NavSearch />
-
-      {page === "templates" && (
-        <TemplatesTabBar activeTab={templatesTab} onTabChange={setTemplatesTab} />
-      )}
 
       {page === "projectsTracker" && (
         <div
@@ -1998,6 +1994,9 @@ export default function App() {
             {page === "timelineChart" && <TimelineChartProjectDropdown />}
             {page === "mobilization" && <MobilizationSearch />}
             {page === "members" && <MembersSearch />}
+            {page === "templates" && (
+              <TemplatesTabBar activeTab={templatesTab} onTabChange={setTemplatesTab} />
+            )}
           </div>
         </div>
       </div>
