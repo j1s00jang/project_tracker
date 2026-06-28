@@ -57,7 +57,7 @@ function Button1() {
       <Button2 />
       <Svg1 />
       <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-medium justify-center leading-[0] left-[calc(50%+11.5px)] not-italic text-[#17171a] text-[13px] text-center top-1/2 whitespace-nowrap">
-        <p className="leading-[20px]">Members Roles</p>
+        <p className="leading-[20px]">Resource Roles</p>
       </div>
     </div>
   );
@@ -401,7 +401,7 @@ function Data() {
   return (
     <div className="absolute bg-white border border-[#d5e1ff] border-solid h-[398px] left-[32px] right-[32px] rounded-[10px] top-[228px]" data-name="Data">
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[31px] not-italic right-[calc(50%+162px)] text-[#17171a] text-[14px] top-[30px] whitespace-nowrap">
-        <p className="leading-[20px]">Define roles available when adding or editing members.</p>
+        <p className="leading-[20px]">Define roles available when adding or editing resources.</p>
       </div>
       <Developers />
       <Developers1 />
@@ -421,11 +421,11 @@ function Overlay() {
         <p className="leading-[normal] text-[30px]">App Settings</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[32px] not-italic right-[calc(50%+228px)] text-[#3170ad] text-[14px] top-[81px] whitespace-nowrap">
-        <p className="leading-[20px]">Configure role options for team members</p>
+        <p className="leading-[20px]">Configure role options for team resources</p>
       </div>
       <PmMembersRoleTab />
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[16px] justify-center leading-[0] left-[32px] not-italic right-[calc(50%+272px)] text-[#737373] text-[0px] top-[208px]">
-        <p className="font-bold leading-[16px] text-[12px]">ROLE OPTIONS FOR MEMBERS</p>
+        <p className="font-bold leading-[16px] text-[12px]">ROLE OPTIONS FOR RESOURCES</p>
       </div>
       <Data />
     </div>
@@ -800,7 +800,7 @@ function Container8() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Projects Tracker</p>
+        <p className="leading-[20px]">Deliverable Tracker</p>
       </div>
     </div>
   );
@@ -831,7 +831,7 @@ function Container9() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Tasks Tracker</p>
+        <p className="leading-[20px]">Activity Tracker</p>
       </div>
     </div>
   );
@@ -997,7 +997,7 @@ function Container12() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Project Members</p>
+        <p className="leading-[20px]">Resources</p>
       </div>
     </div>
   );
@@ -1068,7 +1068,7 @@ function Container13() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Members Calendar</p>
+        <p className="leading-[20px]">Resource Calendar</p>
       </div>
     </div>
   );

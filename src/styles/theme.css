@@ -198,6 +198,8 @@ button[data-primary-blue] {
 }
 
 [data-name="New Project btn"]:hover [data-name="Button:shadow"][class*="3170ad"],
+[data-name="Add member btn"]:hover [data-name="Button:shadow"][class*="3170ad"],
+[data-name="Add Members btn"]:hover [data-name="Button:shadow"][class*="3170ad"],
 [data-name="New btn"]:hover [data-name="Button:shadow"][class*="3170ad"],
 [data-name="On/Off boarding toggle"] [data-name="Button"]:hover [data-name="Button:shadow"][class*="3170ad"],
 [class*="3170ad"][data-name="Button"]:hover,
@@ -404,14 +406,20 @@ button[data-primary-blue]:hover {
 }
 
 /* Hide static Figma members search; replaced by real input in App.tsx */
-[data-name="v2 - 08 members"] [data-name="Search Bar"] {
+[data-name="v2 - 08 members"] [data-name="Search Bar"],
+[data-name="v2 - 08 members"] [data-name="Filter Dropdown"] {
   visibility: hidden;
   pointer-events: none;
 }
 
-[data-name="v2 - 08 members"] [data-name="Add member btn"] *,
-[data-name="v2 - 08 members"] [data-name="Filter Dropdown"] * {
+[data-name="v2 - 08 members"] [data-name="Add member btn"] * {
   cursor: pointer;
+}
+
+[data-scroll-content][data-members-filters-active]
+  [data-name="v2 - 08 members"]
+  [data-name="Member Info Card"] {
+  transform: translateY(var(--members-filters-layout-offset, 87px));
 }
 
 [data-search-field] input::placeholder {
@@ -560,7 +568,7 @@ button[data-primary-blue]:hover {
   display: none !important;
 }
 
-/* Members Calendar — hide static toolbar mocks; replaced by fixed controls in App.tsx */
+/* Resource Calendar — hide static toolbar mocks; replaced by fixed controls in App.tsx */
 [data-scroll-content] [data-name="v2 - 09 members calendar"] [data-name="Header"],
 [data-name="v2 - 09 members calendar"] [data-name="Daily/Weekly/Monthly"],
 [data-name="v2 - 09 members calendar"] [data-name="Month"],
@@ -582,6 +590,17 @@ button[data-primary-blue]:hover {
 
 [data-name="v2 - 09 members calendar"] [data-name="Data Table"]::-webkit-scrollbar {
   display: none;
+}
+
+[data-scroll-content][data-members-calendar-filters-active]
+  [data-name="v2 - 09 members calendar"]
+  [data-name="Data Table"] {
+  top: var(--members-calendar-data-table-top, 310px) !important;
+}
+
+[data-members-calendar-fixed-header] [data-name="v2 - 09 members calendar"] [data-name="Data Table"] {
+  visibility: hidden;
+  pointer-events: none;
 }
 
 [data-name="Cards Section"] [data-name="Card"] {

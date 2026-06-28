@@ -71,10 +71,10 @@ function Header() {
   return (
     <div className="absolute contents left-[32px] not-italic top-[32px] whitespace-nowrap" data-name="Header">
       <div className="-translate-y-1/2 absolute flex flex-col font-bold justify-center left-[32px] right-[calc(75%+53px)] text-[#17171a] text-[30px] top-[50px] tracking-[-0.5px]">
-        <p className="leading-[normal]">Members Calendar</p>
+        <p className="leading-[normal]">Resource Calendar</p>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col font-normal justify-center left-[32px] text-[#3170ad] text-[14px] top-[80px]">
-        <p className="leading-[20px]">View member availability</p>
+        <p className="leading-[20px]">View resource availability</p>
       </div>
     </div>
   );
@@ -172,24 +172,22 @@ function Month() {
   );
 }
 
-function Svg3() {
-  return (
-    <div className="-translate-y-1/2 absolute left-[16px] size-[16px] top-1/2" data-name="SVG">
-      <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16 16">
-        <g id="SVG">
-          <path d="M3.33333 8H12.6667" id="Vector" stroke="var(--stroke-0, #F5FBFF)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.33333" />
-          <path d="M8 3.33333V12.6667" id="Vector_2" stroke="var(--stroke-0, #F5FBFF)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.33333" />
-        </g>
-      </svg>
-    </div>
-  );
-}
-
 function AddMembersBtn() {
   return (
-    <div className="absolute bg-[#3170ad] h-[40px] left-[calc(75%+57px)] right-[32px] rounded-[10px] top-[113px]" data-name="Add Members btn">
-      <Svg3 />
-      <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-medium justify-center leading-[0] left-[calc(50%+12px)] not-italic text-[#f5fbff] text-[13px] text-center top-1/2 whitespace-nowrap">
+    <div
+      className="absolute content-stretch flex gap-[8px] items-center px-[16px] py-[10px] right-[32px] rounded-[10px] top-[113px]"
+      data-name="Add Members btn"
+    >
+      <div className="absolute bg-[#3170ad] inset-0 rounded-[10px] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.1),0px_1px_2px_-1px_rgba(0,0,0,0.1)]" data-name="Button:shadow" />
+      <div className="relative shrink-0 size-[16px]" data-name="SVG">
+        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16 16">
+          <g id="SVG">
+            <path d="M3.33333 8H12.6667" id="Vector" stroke="var(--stroke-0, #F5FBFF)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.33333" />
+            <path d="M8 3.33333V12.6667" id="Vector_2" stroke="var(--stroke-0, #F5FBFF)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.33333" />
+          </g>
+        </svg>
+      </div>
+      <div className="[word-break:break-word] flex flex-col font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#f5fbff] text-[13px] text-center whitespace-nowrap">
         <p className="leading-[20px]">Add Resource to Project</p>
       </div>
     </div>
@@ -2094,7 +2092,7 @@ function Date() {
   return (
     <div className="[word-break:break-word] bg-[#3170ad] font-normal h-[49px] leading-[0] not-italic pointer-events-auto sticky text-[0px] top-0" data-name="Date">
       <div className="-translate-y-1/2 absolute flex items-center left-[16px] top-1/2 whitespace-nowrap">
-        <span className="font-bold text-[12px] leading-none text-white">Members</span>
+        <span className="font-bold text-[12px] leading-none text-white">Resource</span>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col h-[27.5px] justify-center left-[275.36px] right-[-141.56px] text-[#737373] text-center top-[23.75px]">
         <p className="leading-[16.5px] mb-0 text-[11px]">F</p>
@@ -2636,7 +2634,7 @@ function Container3() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Projects Tracker</p>
+        <p className="leading-[20px]">Deliverable Tracker</p>
       </div>
     </div>
   );
@@ -2667,7 +2665,7 @@ function Container4() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Tasks Tracker</p>
+        <p className="leading-[20px]">Activity Tracker</p>
       </div>
     </div>
   );
@@ -2833,7 +2831,7 @@ function Container7() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Project Members</p>
+        <p className="leading-[20px]">Resources</p>
       </div>
     </div>
   );
@@ -2864,7 +2862,7 @@ function Container8() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#0033d9] text-[13px] w-full">
-        <p className="leading-[20px]">Members Calendar</p>
+        <p className="leading-[20px]">Resource Calendar</p>
       </div>
     </div>
   );

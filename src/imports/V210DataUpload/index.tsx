@@ -109,7 +109,7 @@ function Container1() {
   return (
     <div className="-translate-y-1/2 absolute h-[20px] left-[80px] overflow-clip right-[56px] top-[calc(50%+12px)]" data-name="Container">
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-0 not-italic text-[#737373] text-[12px] top-[10px] whitespace-nowrap">
-        <p className="leading-[16px]">Import team members with their roles, contact info, and availability.</p>
+        <p className="leading-[16px]">Import team resources with their roles, contact info, and availability.</p>
       </div>
     </div>
   );
@@ -132,7 +132,7 @@ function Button1() {
     <div className="absolute h-[76px] left-0 right-0 top-0" data-name="Button">
       <Overlay1 />
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[24px] justify-center leading-[0] left-[80px] not-italic right-[957.74px] text-[#17171a] text-[0px] top-[calc(50%-10px)]">
-        <p className="font-bold leading-[20px] text-[14px]">Members</p>
+        <p className="font-bold leading-[20px] text-[14px]">Resources</p>
       </div>
       <Container1 />
       <Svg3 />
@@ -665,7 +665,7 @@ function Container7() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Projects Tracker</p>
+        <p className="leading-[20px]">Deliverable Tracker</p>
       </div>
     </div>
   );
@@ -696,7 +696,7 @@ function Container8() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Tasks Tracker</p>
+        <p className="leading-[20px]">Activity Tracker</p>
       </div>
     </div>
   );
@@ -862,7 +862,7 @@ function Container11() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Project Members</p>
+        <p className="leading-[20px]">Resources</p>
       </div>
     </div>
   );
@@ -933,7 +933,7 @@ function Container12() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Members Calendar</p>
+        <p className="leading-[20px]">Resource Calendar</p>
       </div>
     </div>
   );

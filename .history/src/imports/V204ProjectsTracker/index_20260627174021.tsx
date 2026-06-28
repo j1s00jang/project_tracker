@@ -296,7 +296,7 @@ function ViewTasks() {
             data-name="View Tasks"
         >
             <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-medium justify-center leading-[0] left-0 not-italic text-[#3170ad] text-[13px] top-1/2 whitespace-nowrap">
-                <p className="leading-[20px]">View Activity Tracker</p>
+                <p className="leading-[20px]">View Tasks Tracker</p>
             </div>
             <Svg2 />
         </div>
@@ -2806,7 +2806,7 @@ function Container6() {
             data-name="Container"
         >
             <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-                <p className="leading-[20px]">Activity Tracker</p>
+                <p className="leading-[20px]">Tasks Tracker</p>
             </div>
         </div>
     );

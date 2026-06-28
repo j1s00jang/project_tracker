@@ -482,20 +482,20 @@ function TasksRow() {
         <p className="leading-[20px]">1</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[62px] not-italic right-[1004px] text-[#17171a] text-[13px] top-[24px] whitespace-nowrap">
-        <p className="leading-[20px]">Project Overview</p>
+        <p className="leading-[20px]">Placeholder</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[273px] not-italic right-[768px] text-[#5803cf] text-[0px] top-[24.5px] whitespace-nowrap">
-        <p className="font-bold leading-[16.5px] text-[11px]">+ Alex Morgan</p>
+        <p className="font-bold leading-[16.5px] text-[11px]">Placeholder</p>
       </div>
       <StatusDropdown1 />
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[628px] not-italic right-[426px] text-[#3170ad] text-[11px] top-[23.5px] whitespace-nowrap">
-        <p className="leading-[16.5px]">May 4, 2026</p>
+        <p className="leading-[16.5px]">Placeholder</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[800px] not-italic right-[254px] text-[#17171a] text-[11px] top-[24.5px] whitespace-nowrap">
-        <p className="leading-[16.5px]">May 2, 2026</p>
+        <p className="leading-[16.5px]">Placeholder</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[987px] not-italic right-[67px] text-[#17171a] text-[11px] top-[24.5px] whitespace-nowrap">
-        <p className="leading-[16.5px]">May 3, 2026</p>
+        <p className="leading-[16.5px]">Placeholder</p>
       </div>
     </div>
   );
@@ -550,20 +550,20 @@ function TasksRow1() {
         <p className="leading-[20px]">2</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[62px] not-italic right-[1004px] text-[#17171a] text-[13px] top-[24px] whitespace-nowrap">
-        <p className="leading-[20px]">Problem Statement</p>
+        <p className="leading-[20px]">Placeholder</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[273px] not-italic right-[800px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[24.5px] whitespace-nowrap">
-        <p className="leading-[16.5px]">+ Assign</p>
+        <p className="leading-[16.5px]">Placeholder</p>
       </div>
       <Status />
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[628px] not-italic right-[426px] text-[#3170ad] text-[11px] top-[23.5px] whitespace-nowrap">
-        <p className="leading-[16.5px]">May 6, 2026</p>
+        <p className="leading-[16.5px]">Placeholder</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[800px] not-italic right-[254px] text-[#17171a] text-[11px] top-[24.5px] whitespace-nowrap">
-        <p className="leading-[16.5px]">May 3, 2026</p>
+        <p className="leading-[16.5px]">Placeholder</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[987px] not-italic right-[67px] text-[#17171a] text-[11px] top-[24.5px] whitespace-nowrap">
-        <p className="leading-[16.5px]">May 6, 2026</p>
+        <p className="leading-[16.5px]">Placeholder</p>
       </div>
     </div>
   );
@@ -618,20 +618,20 @@ function TasksRow2() {
         <p className="leading-[20px]">3</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[62px] not-italic right-[1012px] text-[#17171a] text-[13px] top-[24px] whitespace-nowrap">
-        <p className="leading-[20px]">Review</p>
+        <p className="leading-[20px]">Placeholder</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[273px] not-italic right-[800px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[24.5px] whitespace-nowrap">
-        <p className="leading-[16.5px]">+ Assign</p>
+        <p className="leading-[16.5px]">Placeholder</p>
       </div>
       <Status1 />
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[628px] not-italic right-[426px] text-[#3170ad] text-[11px] top-[23.5px] whitespace-nowrap">
-        <p className="leading-[16.5px]">May 6, 2026</p>
+        <p className="leading-[16.5px]">Placeholder</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[800px] not-italic right-[254px] text-[#17171a] text-[11px] top-[24.5px] whitespace-nowrap">
-        <p className="leading-[16.5px]">May 6, 2026</p>
+        <p className="leading-[16.5px]">Placeholder</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[987px] not-italic right-[67px] text-[#17171a] text-[11px] top-[24.5px] whitespace-nowrap">
-        <p className="leading-[16.5px]">May 6, 2026</p>
+        <p className="leading-[16.5px]">Placeholder</p>
       </div>
     </div>
   );
@@ -833,7 +833,7 @@ function TasksRow3() {
         <p className="leading-[20px]">1</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[62px] not-italic right-[1004px] text-[#17171a] text-[13px] top-[24px] whitespace-nowrap">
-        <p className="leading-[20px]">Market Research</p>
+        <p className="leading-[20px]">Project Charter</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[273px] not-italic right-[800px] text-[#b995eb] text-[11px] top-[24.5px] whitespace-nowrap">
         <p className="leading-[16.5px]">+ Assign</p>
@@ -901,7 +901,7 @@ function TasksRow4() {
         <p className="leading-[20px]">2</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[62px] not-italic right-[1004px] text-[#17171a] text-[13px] top-[24px] whitespace-nowrap">
-        <p className="leading-[20px]">Competitor Analysis</p>
+        <p className="leading-[20px]">Brand Positioning</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[273px] not-italic right-[800px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[24.5px] whitespace-nowrap">
         <p className="leading-[16.5px]">+ Assign</p>
@@ -969,7 +969,7 @@ function TasksRow5() {
         <p className="leading-[20px]">4</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[62px] not-italic right-[1005px] text-[#17171a] text-[13px] top-[24px] whitespace-nowrap">
-        <p className="leading-[20px]">Positioning Statement</p>
+        <p className="leading-[20px]">Approve</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[273px] not-italic right-[800px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[24.5px] whitespace-nowrap">
         <p className="leading-[16.5px]">+ Assign</p>
@@ -1037,7 +1037,7 @@ function TasksRow6() {
         <p className="leading-[20px]">3</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[62px] not-italic right-[1012px] text-[#17171a] text-[13px] top-[24px] whitespace-nowrap">
-        <p className="leading-[20px]">Brand Values</p>
+        <p className="leading-[20px]">Review</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[273px] not-italic right-[800px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[24.5px] whitespace-nowrap">
         <p className="leading-[16.5px]">+ Assign</p>
@@ -1105,7 +1105,7 @@ function TasksRow7() {
         <p className="leading-[20px]">5</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[62px] not-italic right-[1010px] text-[#17171a] text-[13px] top-[24px] whitespace-nowrap">
-        <p className="leading-[20px]">Final Approval</p>
+        <p className="leading-[20px]">Closure</p>
       </div>
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[273px] not-italic right-[800px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[24.5px] whitespace-nowrap">
         <p className="leading-[16.5px]">+ Assign</p>

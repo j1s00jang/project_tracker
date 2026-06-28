@@ -1820,7 +1820,7 @@ function TasksTrackerStatusDropdowns() {
                     }}
                 >
                     <TableStatusDropdown
-                        label={`Activity ${row.id}`}
+                        label={`Task ${row.id}`}
                         options={TASKS_TABLE_STATUS_OPTIONS}
                         value={values[row.id]}
                         open={openId === row.id}

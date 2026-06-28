@@ -1,6 +1,535 @@
-import svgPaths from "./svg-clgmhcfj8c";
+import svgPaths from "./svg-a3simzg9j6";
 
 function Svg() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[12px] size-[16px] top-1/2"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 16 16"
+            >
+                <g id="SVG">
+                    <path
+                        d="M5.33333 1.33333V4"
+                        id="Vector"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M10.6667 1.33333V4"
+                        id="Vector_2"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d={svgPaths.p3ee34580}
+                        id="Vector_3"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M2 6.66667H14"
+                        id="Vector_4"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function Button() {
+    return (
+        <div
+            className="absolute h-[32px] left-[4px] rounded-[8px] top-[4px] w-[96.88px]"
+            data-name="Button"
+        >
+            <Svg />
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[calc(50%+11.56px)] not-italic text-[#737373] text-[13px] text-center top-1/2 whitespace-nowrap">
+                <p className="leading-[20px]">Monthly</p>
+            </div>
+        </div>
+    );
+}
+
+function Svg1() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[12.13px] size-[16px] top-1/2"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 16 16"
+            >
+                <g id="SVG">
+                    <path
+                        d="M5.33333 1.33333V4"
+                        id="Vector"
+                        stroke="var(--stroke-0, white)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M10.6667 1.33333V4"
+                        id="Vector_2"
+                        stroke="var(--stroke-0, white)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d={svgPaths.p3ee34580}
+                        id="Vector_3"
+                        stroke="var(--stroke-0, white)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M2 6.66667H14"
+                        id="Vector_4"
+                        stroke="var(--stroke-0, white)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M5.33333 9.33333H5.34"
+                        id="Vector_5"
+                        stroke="var(--stroke-0, white)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M8 9.33333H8.00667"
+                        id="Vector_6"
+                        stroke="var(--stroke-0, white)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M10.6667 9.33333H10.6733"
+                        id="Vector_7"
+                        stroke="var(--stroke-0, white)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M5.33333 12H5.34"
+                        id="Vector_8"
+                        stroke="var(--stroke-0, white)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M8 12H8.00667"
+                        id="Vector_9"
+                        stroke="var(--stroke-0, white)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M10.6667 12H10.6733"
+                        id="Vector_10"
+                        stroke="var(--stroke-0, white)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function Button1() {
+    return (
+        <div
+            className="absolute bg-[#3170ad] h-[32px] left-[100.87px] rounded-[8px] top-[4px] w-[93.5px]"
+            data-name="Button"
+        >
+            <Svg1 />
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-medium justify-center leading-[0] left-[calc(50%+11.38px)] not-italic text-[13px] text-center text-white top-1/2 whitespace-nowrap">
+                <p className="leading-[20px]">Weekly</p>
+            </div>
+        </div>
+    );
+}
+
+function Svg2() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[12px] size-[16px] top-1/2"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 16 16"
+            >
+                <g id="SVG">
+                    <path
+                        d={svgPaths.p3ee34580}
+                        id="Vector"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M10.6667 1.33333V4"
+                        id="Vector_2"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M2 6.66667H14"
+                        id="Vector_3"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M5.33333 1.33333V4"
+                        id="Vector_4"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M11.3333 9.33333H7.33333"
+                        id="Vector_5"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M8.66667 12H4.66667"
+                        id="Vector_6"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M4.66667 9.33333H4.67333"
+                        id="Vector_7"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M11.3333 12H11.34"
+                        id="Vector_8"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function Button2() {
+    return (
+        <div
+            className="absolute h-[32px] left-[194.37px] rounded-[8px] top-[4px] w-[78.84px]"
+            data-name="Button"
+        >
+            <Svg2 />
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[calc(50%+12.08px)] not-italic text-[#737373] text-[13px] text-center top-1/2 whitespace-nowrap">
+                <p className="leading-[20px]">Daily</p>
+            </div>
+        </div>
+    );
+}
+
+function MonthlyWeeklyDaily() {
+    return (
+        <div
+            className="absolute bg-white border border-[#d5e1ff] border-solid h-[42px] left-[266px] right-[calc(50%+46.78px)] rounded-[10px] top-[44px]"
+            data-name="Monthly / Weekly / Daily"
+        >
+            <Button />
+            <Button1 />
+            <Button2 />
+        </div>
+    );
+}
+
+function Svg3() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[12px] size-[16px] top-1/2"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 16 16"
+            >
+                <g id="SVG">
+                    <g id="Vector">
+                        <path
+                            d="M10 2H14V6"
+                            stroke="var(--stroke-0, #242429)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M10 2H14V6"
+                            stroke="var(--stroke-1, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M10 2H14V6"
+                            stroke="var(--stroke-2, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                    </g>
+                    <g id="Vector_2">
+                        <path
+                            d="M14 2L9.33333 6.66667"
+                            stroke="var(--stroke-0, #242429)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M14 2L9.33333 6.66667"
+                            stroke="var(--stroke-1, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M14 2L9.33333 6.66667"
+                            stroke="var(--stroke-2, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                    </g>
+                    <g id="Vector_3">
+                        <path
+                            d="M2 14L6.66667 9.33333"
+                            stroke="var(--stroke-0, #242429)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M2 14L6.66667 9.33333"
+                            stroke="var(--stroke-1, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M2 14L6.66667 9.33333"
+                            stroke="var(--stroke-2, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                    </g>
+                    <g id="Vector_4">
+                        <path
+                            d="M6 14H2V10"
+                            stroke="var(--stroke-0, #242429)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M6 14H2V10"
+                            stroke="var(--stroke-1, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M6 14H2V10"
+                            stroke="var(--stroke-2, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                    </g>
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function FitBtn() {
+    return (
+        <div
+            className="absolute bg-white border border-[#d5e1ff] border-solid h-[40px] left-[650px] rounded-[10px] top-[45px] w-[66px]"
+            data-name="Fit btn"
+        >
+            <Svg3 />
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[14px] justify-center leading-[0] left-[calc(50%+11.81px)] not-italic text-[#17171a] text-[12px] text-center top-1/2 w-[15.62px]">
+                <p className="leading-[normal]">Fit</p>
+            </div>
+        </div>
+    );
+}
+
+function Svg4() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[12px] size-[16px] top-1/2"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 16 16"
+            >
+                <g id="SVG">
+                    <g id="Vector">
+                        <path
+                            d={svgPaths.p1addaf80}
+                            stroke="var(--stroke-0, #242429)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d={svgPaths.p1addaf80}
+                            stroke="var(--stroke-1, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d={svgPaths.p1addaf80}
+                            stroke="var(--stroke-2, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                    </g>
+                    <g id="Vector_2">
+                        <path
+                            d={svgPaths.p19602f00}
+                            stroke="var(--stroke-0, #242429)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d={svgPaths.p19602f00}
+                            stroke="var(--stroke-1, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d={svgPaths.p19602f00}
+                            stroke="var(--stroke-2, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                    </g>
+                    <g id="Vector_3">
+                        <path
+                            d="M5.33333 8H10.6667"
+                            stroke="var(--stroke-0, #242429)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M5.33333 8H10.6667"
+                            stroke="var(--stroke-1, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M5.33333 8H10.6667"
+                            stroke="var(--stroke-2, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                    </g>
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function LinkTasksBtn() {
+    return (
+        <div
+            className="absolute bg-white border border-[#d5e1ff] border-solid h-[40px] left-[724px] rounded-[10px] top-[45px] w-[115px]"
+            data-name="Link Tasks btn"
+        >
+            <Svg4 />
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[14px] justify-center leading-[0] left-[calc(50%+12.29px)] not-italic text-[#17171a] text-[12px] text-center top-1/2 w-[65.59px]">
+                <p className="leading-[normal]">Link Tasks</p>
+            </div>
+        </div>
+    );
+}
+
+function EditSvg() {
     return (
         <div
             className="-translate-y-1/2 absolute left-[12px] size-[14px] top-1/2"
@@ -13,19 +542,19 @@ function Svg() {
                 viewBox="0 0 14 14"
             >
                 <g
-                    clipPath="url(#clip0_1_2884)"
+                    clipPath="url(#clip0_timeline_edit)"
                     id="SVG"
                 >
                     <g id="Vector">
                         <path
-                            d={svgPaths.p5c60b40}
+                            d="M12.3515 3.97367C12.6599 3.66533 12.8332 3.24711 12.8333 2.811C12.8333 2.37489 12.6601 1.95662 12.3518 1.64821C12.0435 1.33979 11.6252 1.1665 11.1891 1.16644C10.753 1.16639 10.3347 1.33958 10.0263 1.64792L2.24117 9.43483C2.10573 9.56988 2.00557 9.73614 1.9495 9.919L1.17892 12.4577C1.16384 12.5081 1.1627 12.5617 1.17562 12.6127C1.18854 12.6638 1.21504 12.7104 1.2523 12.7476C1.28956 12.7848 1.3362 12.8112 1.38726 12.824C1.43832 12.8369 1.49191 12.8357 1.54233 12.8205L4.08158 12.0505C4.26427 11.9949 4.43052 11.8954 4.56575 11.7606L12.3515 3.97367Z"
                             stroke="var(--stroke-0, #242429)"
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth="1.16667"
                         />
                         <path
-                            d={svgPaths.p5c60b40}
+                            d="M12.3515 3.97367C12.6599 3.66533 12.8332 3.24711 12.8333 2.811C12.8333 2.37489 12.6601 1.95662 12.3518 1.64821C12.0435 1.33979 11.6252 1.1665 11.1891 1.16644C10.753 1.16639 10.3347 1.33958 10.0263 1.64792L2.24117 9.43483C2.10573 9.56988 2.00557 9.73614 1.9495 9.919L1.17892 12.4577C1.16384 12.5081 1.1627 12.5617 1.17562 12.6127C1.18854 12.6638 1.21504 12.7104 1.2523 12.7476C1.28956 12.7848 1.3362 12.8112 1.38726 12.824C1.43832 12.8369 1.49191 12.8357 1.54233 12.8205L4.08158 12.0505C4.26427 11.9949 4.43052 11.8954 4.56575 11.7606L12.3515 3.97367Z"
                             stroke="var(--stroke-1, black)"
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -33,7 +562,7 @@ function Svg() {
                             strokeWidth="1.16667"
                         />
                         <path
-                            d={svgPaths.p5c60b40}
+                            d="M12.3515 3.97367C12.6599 3.66533 12.8332 3.24711 12.8333 2.811C12.8333 2.37489 12.6601 1.95662 12.3518 1.64821C12.0435 1.33979 11.6252 1.1665 11.1891 1.16644C10.753 1.16639 10.3347 1.33958 10.0263 1.64792L2.24117 9.43483C2.10573 9.56988 2.00557 9.73614 1.9495 9.919L1.17892 12.4577C1.16384 12.5081 1.1627 12.5617 1.17562 12.6127C1.18854 12.6638 1.21504 12.7104 1.2523 12.7476C1.28956 12.7848 1.3362 12.8112 1.38726 12.824C1.43832 12.8369 1.49191 12.8357 1.54233 12.8205L4.08158 12.0505C4.26427 11.9949 4.43052 11.8954 4.56575 11.7606L12.3515 3.97367Z"
                             stroke="var(--stroke-2, black)"
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -68,7 +597,7 @@ function Svg() {
                     </g>
                 </g>
                 <defs>
-                    <clipPath id="clip0_1_2884">
+                    <clipPath id="clip0_timeline_edit">
                         <rect
                             fill="white"
                             height="14"
@@ -81,14 +610,14 @@ function Svg() {
     );
 }
 
-function Button() {
+function EditBtn() {
     return (
         <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[40px] left-[816px] rounded-[10px] top-[14px] w-[72px]"
+            className="absolute bg-white border border-[#d5e1ff] border-solid h-[40px] left-[847px] rounded-[10px] top-[45px] w-[72px]"
             data-name="Edit btn"
         >
-            <Svg />
-            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[14px] justify-center leading-[0] left-[calc(50%+11.26px)] not-italic text-[#17171a] text-[12px] text-center top-1/2 w-[24.04px]">
+            <EditSvg />
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[14px] justify-center leading-[0] left-[calc(50%+11.1px)] not-italic text-[#17171a] text-[12px] text-center top-1/2 w-[24.04px]">
                 <p className="leading-[16px]">Edit</p>
             </div>
         </div>
@@ -96,6 +625,46 @@ function Button() {
 }
 
 function Container() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute h-[20px] left-[28px] overflow-clip top-1/2 w-[158px]"
+            data-name="Container"
+        >
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-0 not-italic text-[#c45400] text-[12px] top-[10.5px] whitespace-nowrap">
+                <p className="leading-[normal]">Project Name</p>
+            </div>
+        </div>
+    );
+}
+
+function Svg5() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[194px] size-[16px] top-1/2"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 16 16"
+            >
+                <g id="SVG">
+                    <path
+                        d="M4 6L8 10L12 6"
+                        id="Vector"
+                        stroke="var(--stroke-0, #C45400)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function Container1() {
     return (
         <div
             className="-translate-y-1/2 absolute h-[20px] left-[28.16px] overflow-clip top-1/2 w-[158px]"
@@ -108,7 +677,7 @@ function Container() {
     );
 }
 
-function Svg1() {
+function Svg6() {
     return (
         <div
             className="-translate-y-1/2 absolute left-[194px] size-[16px] top-1/2"
@@ -152,112 +721,419 @@ function Svg1() {
     );
 }
 
-function Button1() {
+function Dropdown1() {
     return (
         <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[40px] left-[896px] rounded-[10px] top-[14px] w-[224px]"
-            data-name="Button"
+            className="absolute bg-white border border-[#d5e1ff] border-solid h-[40px] left-0 rounded-[10px] top-0 w-[224px]"
+            data-name="Dropdown"
         >
             <div
                 className="-translate-y-1/2 absolute bg-[#956a1b] left-[12px] rounded-[33554400px] size-[8px] top-1/2"
                 data-name="Background"
             />
-            <Container />
-            <Svg1 />
-        </div>
-    );
-}
-
-function Header() {
-    return (
-        <div
-            className="absolute h-[60px] left-[31px] right-[691px] top-[31px]"
-            data-name="Header"
-        >
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-bold justify-center leading-[0] left-0 not-italic text-[#1c1d1f] text-[0px] top-[18px] tracking-[-0.5px] whitespace-nowrap">
-                <p className="leading-[normal] text-[30px]">
-                    Deliverable Tracker
-                </p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-px not-italic text-[#3170ad] text-[14px] top-[50px] whitespace-nowrap">
-                <p className="leading-[20px]">
-                    Track project progress, phases, and deliverables
-                </p>
-            </div>
-            <Button />
-            <Button1 />
-        </div>
-    );
-}
-
-function ProjectIcon() {
-    return (
-        <div
-            className="absolute bg-[#956a1b] h-[48px] left-[20px] right-[1050px] rounded-[14px] top-[26px]"
-            data-name="Project Icon"
-        >
-            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[16px] justify-center leading-[0] left-[calc(50%+0.59px)] not-italic text-[#fbfcff] text-[0px] text-center top-1/2 w-[26.73px]">
-                <p className="font-bold leading-[20px] text-[16px]">NB</p>
-            </div>
-        </div>
-    );
-}
-
-function Container1() {
-    return (
-        <div
-            className="absolute content-stretch flex items-center justify-center left-[82.5px] overflow-clip py-[4px] right-[847.5px] top-[37px]"
-            data-name="Container"
-        >
-            <div className="[word-break:break-word] flex flex-col font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#1c1d1f] text-[0px] whitespace-nowrap">
-                <p className="leading-[20px] text-[#17171a] text-[16px]">
-                    Northstar Brand Refresh
-                </p>
-            </div>
-        </div>
-    );
-}
-
-function CurrentTracking() {
-    return (
-        <div
-            className="absolute contents left-[81px] right-[846.5px] top-[20px]"
-            data-name="Current Tracking"
-        >
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-medium justify-center leading-[0] left-[82px] not-italic right-[902px] text-[#737373] text-[12px] top-[29px] tracking-[-0.024px] whitespace-nowrap">
-                <p className="leading-[16px]">CURRENTLY TRACKING</p>
-            </div>
             <Container1 />
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[82px] not-italic right-[938px] text-[#737373] text-[12px] top-[73px] whitespace-nowrap">
-                <p className="leading-[16px]">PM · Alex Morgan</p>
-            </div>
+            <Svg6 />
         </div>
     );
 }
 
-function Progress() {
+function Dropdown() {
     return (
         <div
-            className="[word-break:break-word] absolute contents leading-[0] left-[332px] not-italic right-[722px] top-[37px]"
-            data-name="PROGRESS"
+            className="absolute bg-white border border-[#ffdcb4] border-solid h-[40px] left-[927px] rounded-[10px] top-[45px] w-[224px]"
+            data-name="Dropdown"
         >
-            <div className="-translate-y-1/2 absolute flex flex-col font-medium justify-center left-[333px] right-[723px] text-[#737373] text-[12px] top-[46px] tracking-[-0.024px] whitespace-nowrap">
-                <p className="leading-[16px]">PROGRESS</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col font-normal justify-center left-[333px] right-[762px] text-[#17171a] text-[0px] top-[68px] whitespace-nowrap">
-                <p className="font-bold leading-[20px] text-[16px]">{`1/5 `}</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col font-normal justify-center left-[363.06px] right-[723.94px] text-[#737373] text-[13px] top-[69px] whitespace-nowrap">
-                <p className="leading-[20px]">tasks</p>
+            <div
+                className="-translate-y-1/2 absolute bg-[#34ac86] left-[12px] rounded-[33554400px] size-[8px] top-1/2"
+                data-name="Background"
+            />
+            <Container />
+            <Svg5 />
+            <Dropdown1 />
+        </div>
+    );
+}
+
+function ProjectsDropdown() {
+    return (
+        <div
+            className="absolute contents top-[45px]"
+            data-name="Projects Dropdown"
+        >
+            <FitBtn />
+            <LinkTasksBtn />
+            <EditBtn />
+            <Dropdown />
+        </div>
+    );
+}
+
+function Svg7() {
+    return (
+        <div
+            className="absolute left-[16px] size-[16px] top-[14px]"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 16 16"
+            >
+                <g id="SVG">
+                    <path
+                        d={svgPaths.p19bc7f80}
+                        id="Vector"
+                        stroke="var(--stroke-0, #C92A2A)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M8 6V8.66667"
+                        id="Vector_2"
+                        stroke="var(--stroke-0, #C92A2A)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M8 11.3333H8.00667"
+                        id="Vector_3"
+                        stroke="var(--stroke-0, #C92A2A)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function WarningCardItemsExtend() {
+    return (
+        <div
+            className="absolute bg-[#ffeff0] border border-[rgba(223,34,37,0.3)] border-solid h-[66px] left-[32px] right-[32px] rounded-[10px] top-[113px]"
+            data-name="Warning card - items extend"
+        >
+            <Svg7 />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[34px] justify-center leading-[0] left-[44px] not-italic text-[#c92a2a] text-[0px] top-[32px] w-[497.2px]">
+                <p className="font-bold leading-[20px] mb-0 text-[13px]">
+                    Items extend beyond project end date
+                </p>
+                <p className="leading-[20px] text-[13px]">
+                    Final Testing, Final Delivery, Project Closure,
+                    Documentation, Handover, Closure
+                </p>
             </div>
         </div>
     );
 }
 
-function Svg2() {
+function Phase() {
     return (
         <div
-            className="-translate-y-1/2 absolute left-[133.62px] size-[14px] top-1/2"
+            className="absolute contents left-[32px] right-[calc(75%+209px)] top-[198px]"
+            data-name="Phase"
+        >
+            <div
+                className="absolute bg-[#0058bd] h-[12px] left-[32px] right-[calc(75%+252px)] rounded-[33554400px] top-[200px]"
+                data-name="Background"
+            />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[52px] not-italic right-[calc(75%+209px)] text-[#17171a] text-[12px] top-[206px] whitespace-nowrap">
+                <p className="leading-[16px]">Phase</p>
+            </div>
+        </div>
+    );
+}
+
+function WorkPackage() {
+    return (
+        <div
+            className="absolute contents left-[107px] right-[calc(75%+88px)] top-[198px]"
+            data-name="Work Package"
+        >
+            <div
+                className="absolute bg-[#2e8fff] h-[12px] left-[107px] right-[calc(75%+177px)] rounded-[33554400px] top-[200px]"
+                data-name="Background"
+            />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[127px] not-italic right-[calc(75%+88px)] text-[#17171a] text-[12px] top-[206px] whitespace-nowrap">
+                <p className="leading-[16px]">Work Package</p>
+            </div>
+        </div>
+    );
+}
+
+function Deliverable() {
+    return (
+        <div
+            className="absolute contents left-[228px] right-[calc(75%-16px)] top-[198px]"
+            data-name="Deliverable"
+        >
+            <div
+                className="absolute bg-[#89c0ff] h-[12px] left-[228px] right-[calc(75%+56px)] rounded-[33554400px] top-[200px]"
+                data-name="Background"
+            />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[248px] not-italic right-[calc(75%-16px)] text-[#17171a] text-[12px] top-[206px] whitespace-nowrap">
+                <p className="leading-[16px]">Deliverable</p>
+            </div>
+        </div>
+    );
+}
+
+function Activity() {
+    return (
+        <div
+            className="absolute contents left-[calc(25%+36px)] right-[calc(50%+197px)] top-[198px]"
+            data-name="Activity"
+        >
+            <div
+                className="absolute bg-[#d0e6ff] h-[12px] left-[calc(25%+36px)] right-[calc(50%+248px)] rounded-[33554400px] top-[200px]"
+                data-name="Background"
+            />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[calc(25%+56px)] not-italic right-[calc(50%+197px)] text-[#17171a] text-[12px] top-[206px] whitespace-nowrap">
+                <p className="leading-[16px]">Activity</p>
+            </div>
+        </div>
+    );
+}
+
+function ProjectStarts() {
+    return (
+        <div
+            className="absolute contents left-[calc(25%+119px)] right-[calc(50%+79px)] top-[198px]"
+            data-name="Project Starts"
+        >
+            <div
+                className="absolute bg-[#00b88b] h-[12px] left-[calc(25%+119px)] right-[calc(50%+165px)] rounded-[33554400px] top-[200px]"
+                data-name="Background"
+            />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[calc(25%+139px)] not-italic right-[calc(50%+79px)] text-[#17171a] text-[12px] top-[206px] whitespace-nowrap">
+                <p className="leading-[16px]">Project Starts</p>
+            </div>
+        </div>
+    );
+}
+
+function ProjectEnds() {
+    return (
+        <div
+            className="absolute contents left-[calc(25%+237px)] right-[calc(25%+263px)] top-[198px]"
+            data-name="Project Ends"
+        >
+            <div
+                className="absolute bg-[#c92a2a] h-[12px] left-[calc(25%+237px)] right-[calc(50%+47px)] rounded-[33554400px] top-[200px]"
+                data-name="Background"
+            />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[calc(25%+257px)] not-italic right-[calc(25%+263px)] text-[#17171a] text-[12px] top-[206px] whitespace-nowrap">
+                <p className="leading-[16px]">Project Ends</p>
+            </div>
+        </div>
+    );
+}
+
+function DotsStatus() {
+    return (
+        <div
+            className="absolute contents left-[32px] right-[calc(25%+263px)] top-[198px]"
+            data-name="dots + status"
+        >
+            <Phase />
+            <WorkPackage />
+            <Deliverable />
+            <Activity />
+            <ProjectStarts />
+            <ProjectEnds />
+        </div>
+    );
+}
+
+function VerticalBorder() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-r border-solid bottom-0 left-0 top-0 w-[340px]"
+            data-name="VerticalBorder"
+        >
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[14px] justify-center leading-[0] left-[29px] not-italic text-[#17171a] text-[0px] top-[24px] w-[31.04px]">
+                <p className="font-bold leading-[20px] text-[13px]">Task</p>
+            </div>
+        </div>
+    );
+}
+
+function VerticalBorder1() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-r border-solid bottom-0 left-[340px] top-0 w-[560px]"
+            data-name="VerticalBorder"
+        >
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-bold justify-center leading-[0] left-[calc(50%+0.5px)] not-italic text-[#17171a] text-[11px] text-center top-[calc(50%+0.5px)] tracking-[1px] uppercase whitespace-nowrap">
+                <p className="leading-[16.5px]">May 2026</p>
+            </div>
+        </div>
+    );
+}
+
+function Month() {
+    return (
+        <div
+            className="absolute bg-[rgba(0,114,255,0.1)] border-[#d5e1ff] border-b border-solid h-[45px] left-0 right-[-1px] top-0"
+            data-name="Month"
+        >
+            <VerticalBorder />
+            <VerticalBorder1 />
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-bold justify-center leading-[0] left-[1124.5px] not-italic text-[#17171a] text-[11px] text-center top-[calc(50%+0.5px)] tracking-[1px] uppercase whitespace-nowrap">
+                <p className="leading-[16.5px]">Jun 2026</p>
+            </div>
+        </div>
+    );
+}
+
+function VerticalBorder2() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-r border-solid bottom-[0.5px] left-[340px] top-0 w-[112px]"
+            data-name="VerticalBorder"
+        >
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[11px] justify-center leading-[0] left-[calc(50%+0.1px)] not-italic text-[#737373] text-[11px] text-center top-[calc(50%+0.25px)] w-[22.83px]">
+                <p className="leading-[16.5px]">W18</p>
+            </div>
+        </div>
+    );
+}
+
+function VerticalBorder3() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-r border-solid bottom-[0.5px] left-[452px] top-0 w-[112px]"
+            data-name="VerticalBorder"
+        >
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[11px] justify-center leading-[0] left-[calc(50%+0.1px)] not-italic text-[#737373] text-[11px] text-center top-[calc(50%+0.25px)] w-[22.83px]">
+                <p className="leading-[16.5px]">W19</p>
+            </div>
+        </div>
+    );
+}
+
+function VerticalBorder4() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-r border-solid bottom-[0.5px] left-[564px] top-0 w-[112px]"
+            data-name="VerticalBorder"
+        >
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 top-1/2 font-normal not-italic text-[#737373] text-[11px] text-center whitespace-nowrap">
+                <p className="leading-[16.5px]">W20</p>
+            </div>
+        </div>
+    );
+}
+
+function VerticalBorder5() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-r border-solid bottom-[0.5px] left-[676px] top-0 w-[112px]"
+            data-name="VerticalBorder"
+        >
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[11px] justify-center leading-[0] left-[calc(50%+0.1px)] not-italic text-[#737373] text-[11px] text-center top-[calc(50%+0.25px)] w-[22.83px]">
+                <p className="leading-[16.5px]">W21</p>
+            </div>
+        </div>
+    );
+}
+
+function VerticalBorder6() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-r border-solid bottom-[0.5px] left-[788px] top-0 w-[112px]"
+            data-name="VerticalBorder"
+        >
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 top-1/2 font-normal not-italic text-[#737373] text-[11px] text-center whitespace-nowrap">
+                <p className="leading-[16.5px]">W22</p>
+            </div>
+        </div>
+    );
+}
+
+function VerticalBorder7() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-r border-solid bottom-[0.5px] left-[900px] top-0 w-[112px]"
+            data-name="VerticalBorder"
+        >
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[17px] justify-center leading-[0] left-[calc(50%+0.19px)] not-italic text-[#737373] text-[11px] text-center top-[calc(50%+0.25px)] w-[25px]">
+                <p className="leading-[16.5px]">W23</p>
+            </div>
+        </div>
+    );
+}
+
+function VerticalBorder8() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-r border-solid bottom-[0.5px] left-[1012px] top-0 w-[112px]"
+            data-name="VerticalBorder"
+        >
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 top-1/2 font-normal not-italic text-[#737373] text-[11px] text-center whitespace-nowrap">
+                <p className="leading-[16.5px]">W24</p>
+            </div>
+        </div>
+    );
+}
+
+function VerticalBorder9() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-r border-solid bottom-[0.5px] left-[1124px] top-0 w-[112px]"
+            data-name="VerticalBorder"
+        >
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 top-1/2 font-normal not-italic text-[#737373] text-[11px] text-center whitespace-nowrap">
+                <p className="leading-[16.5px]">W25</p>
+            </div>
+        </div>
+    );
+}
+
+function VerticalBorder10() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-r border-solid bottom-[0.5px] left-[1236px] top-0 w-[112px]"
+            data-name="VerticalBorder"
+        >
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 top-1/2 font-normal not-italic text-[#737373] text-[11px] text-center whitespace-nowrap">
+                <p className="leading-[16.5px]">W26</p>
+            </div>
+        </div>
+    );
+}
+
+function WeekTable() {
+    return (
+        <div
+            className="absolute bg-[rgba(0,114,255,0.04)] border-[#d5e1ff] border-b border-solid h-[30px] left-0 right-[-1px] top-[45px]"
+            data-name="Week Table"
+        >
+            <div
+                className="absolute border-[#d5e1ff] border-r border-solid bottom-[0.5px] left-0 top-0 w-[340px]"
+                data-name="VerticalBorder"
+            />
+            <VerticalBorder2 />
+            <VerticalBorder3 />
+            <VerticalBorder4 />
+            <VerticalBorder5 />
+            <VerticalBorder6 />
+            <VerticalBorder7 />
+            <VerticalBorder8 />
+            <VerticalBorder9 />
+            <VerticalBorder10 />
+        </div>
+    );
+}
+
+function Svg8() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[12px] size-[14px] top-1/2"
             data-name="SVG"
         >
             <svg
@@ -268,16 +1144,8 @@ function Svg2() {
             >
                 <g id="SVG">
                     <path
-                        d="M2.91667 7H11.0833"
+                        d="M3.5 5.25L7 8.75L10.5 5.25"
                         id="Vector"
-                        stroke="var(--stroke-0, #737373)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="1.16667"
-                    />
-                    <path
-                        d={svgPaths.pf23dd00}
-                        id="Vector_2"
                         stroke="var(--stroke-0, #737373)"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -289,73 +1157,599 @@ function Svg2() {
     );
 }
 
-function ViewTasks() {
+function TaskRowLabel({
+    left,
+    label,
+    style = "heading",
+}: {
+    left: number;
+    label: string;
+    style?: "heading" | "deliverable" | "activity";
+}) {
+    const textClass =
+        style === "activity"
+            ? "text-[12px] font-normal leading-[12px] text-[#737373]"
+            : style === "deliverable"
+              ? "text-[13px] font-normal leading-[13px] text-[#17171a]"
+              : "text-[13px] font-bold leading-[13px] text-[#17171a]";
+
     return (
         <div
-            className="absolute h-[20px] left-[950px] right-[20px] top-[60px]"
-            data-name="View Tasks"
+            className="absolute top-1/2 flex -translate-y-1/2 items-center overflow-hidden"
+            style={{ left, right: 16 }}
+            data-name="Container"
         >
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-medium justify-center leading-[0] left-0 not-italic text-[#3170ad] text-[13px] top-1/2 whitespace-nowrap">
-                <p className="leading-[20px]">View Activity Tracker</p>
-            </div>
-            <Svg2 />
+            <span
+                className={`min-w-0 overflow-hidden text-ellipsis whitespace-nowrap ${textClass}`}
+            >
+                {label}
+            </span>
         </div>
+    );
+}
+
+function Container2() {
+    return (
+        <TaskRowLabel
+            left={52}
+            label="Initiation"
+        />
     );
 }
 
 function Background() {
     return (
         <div
-            className="-translate-x-1/2 absolute bg-[#f0f4ff] h-[8px] left-1/2 rounded-[33554400px] top-[95px] w-[1079px]"
+            className="absolute bottom-[10.5px] left-[248px] flex h-[21px] w-fit items-center justify-center rounded-[8px] px-[8px] whitespace-nowrap"
             data-name="Background"
-        />
-    );
-}
-
-function Background1() {
-    return (
-        <div
-            className="-translate-x-1/2 absolute bg-gradient-to-l from-[rgba(240,244,255,0)] h-[8px] left-[calc(50%-408.97px)] rounded-[33554400px] to-[#9ab4fa] top-[95px] w-[261.064px]"
-            data-name="Background"
-        />
-    );
-}
-
-function ProgressGradientBar() {
-    return (
-        <div
-            className="-translate-x-1/2 absolute contents left-1/2 top-[94px]"
-            data-name="Progress Gradient Bar"
         >
+            <div
+                className="absolute inset-0 rounded-[8px] bg-[#00b88b] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.1),0px_1px_2px_-1px_rgba(0,0,0,0.1)]"
+                data-name="Overlay+Shadow"
+            />
+            <p className="relative font-bold text-[10px] leading-[15px] tracking-[0.2px] text-white whitespace-nowrap">
+                May 2, 2026
+            </p>
+        </div>
+    );
+}
+
+function HorizontalBorder() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-0"
+            data-name="HorizontalBorder"
+        >
+            <Svg8 />
+            <div
+                className="-translate-y-1/2 absolute bg-[#0058bd] left-[34px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container2 />
             <Background />
-            <Background1 />
         </div>
     );
 }
 
-function Project() {
+function Svg9() {
     return (
         <div
-            className="absolute border border-[#d5e1ff] border-solid h-[126px] left-[31px] right-[716px] rounded-[18px] top-[113px]"
-            style={{
-                backgroundImage:
-                    "linear-gradient(117.587deg, rgba(67, 141, 253, 0.13) 12.682%, rgba(90, 117, 255, 0.13) 69.195%, rgba(115, 0, 255, 0.13) 107.47%)",
-            }}
-            data-name="Project"
+            className="-translate-y-1/2 absolute left-[30px] size-[14px] top-1/2"
+            data-name="SVG"
         >
-            <ProjectIcon />
-            <CurrentTracking />
-            <Progress />
-            <ViewTasks />
-            <ProgressGradientBar />
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 14 14"
+            >
+                <g id="SVG">
+                    <path
+                        d="M3.5 5.25L7 8.75L10.5 5.25"
+                        id="Vector"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.16667"
+                    />
+                </g>
+            </svg>
         </div>
     );
 }
 
-function Svg3() {
+function Container3() {
+    return (
+        <TaskRowLabel
+            left={70}
+            label="Project Setup"
+        />
+    );
+}
+
+function HorizontalBorder1() {
     return (
         <div
-            className="-translate-y-1/2 absolute left-[10px] size-[14px] top-1/2"
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[44px]"
+            data-name="HorizontalBorder"
+        >
+            <Svg9 />
+            <div
+                className="-translate-y-1/2 absolute bg-[#3170ad] left-[52px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container3 />
+        </div>
+    );
+}
+
+function Svg10() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[48px] size-[14px] top-1/2"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 14 14"
+            >
+                <g id="SVG">
+                    <path
+                        d="M3.5 5.25L7 8.75L10.5 5.25"
+                        id="Vector"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.16667"
+                    />
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function Container4() {
+    return (
+        <TaskRowLabel
+            left={88}
+            label="Project Charter"
+        />
+    );
+}
+
+function HorizontalBorder2() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[88px]"
+            data-name="HorizontalBorder"
+        >
+            <Svg10 />
+            <div
+                className="-translate-y-1/2 absolute bg-[#89c0ff] left-[70px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container4 />
+        </div>
+    );
+}
+
+function Container5() {
+    return (
+        <TaskRowLabel
+            left={106}
+            label="Draft Charter"
+            style="activity"
+        />
+    );
+}
+
+function HorizontalBorder3() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[132px]"
+            data-name="HorizontalBorder"
+        >
+            <div
+                className="-translate-y-1/2 absolute bg-[#d0e6ff] left-[88px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container5 />
+        </div>
+    );
+}
+
+function Container6() {
+    return (
+        <TaskRowLabel
+            left={106}
+            label="Review Charter"
+            style="activity"
+        />
+    );
+}
+
+function HorizontalBorder4() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[176px]"
+            data-name="HorizontalBorder"
+        >
+            <div
+                className="-translate-y-1/2 absolute bg-[#d0e6ff] left-[88px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container6 />
+        </div>
+    );
+}
+
+function Container7() {
+    return (
+        <TaskRowLabel
+            left={106}
+            label="Approve Charter"
+            style="activity"
+        />
+    );
+}
+
+function HorizontalBorder5() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[220px]"
+            data-name="HorizontalBorder"
+        >
+            <div
+                className="-translate-y-1/2 absolute bg-[#d0e6ff] left-[88px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container7 />
+        </div>
+    );
+}
+
+function Svg11() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[12px] size-[14px] top-1/2"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 14 14"
+            >
+                <g id="SVG">
+                    <path
+                        d="M3.5 5.25L7 8.75L10.5 5.25"
+                        id="Vector"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.16667"
+                    />
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function Container8() {
+    return (
+        <TaskRowLabel
+            left={52}
+            label="Planning"
+        />
+    );
+}
+
+function HorizontalBorder6() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[264px]"
+            data-name="HorizontalBorder"
+        >
+            <Svg11 />
+            <div
+                className="-translate-y-1/2 absolute bg-[#0058bd] left-[34px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container8 />
+        </div>
+    );
+}
+
+function Svg12() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[30px] size-[14px] top-1/2"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 14 14"
+            >
+                <g id="SVG">
+                    <path
+                        d="M3.5 5.25L7 8.75L10.5 5.25"
+                        id="Vector"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.16667"
+                    />
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function Container9() {
+    return (
+        <TaskRowLabel
+            left={70}
+            label="Requirement Gathering"
+        />
+    );
+}
+
+function HorizontalBorder7() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[308px]"
+            data-name="HorizontalBorder"
+        >
+            <Svg12 />
+            <div
+                className="-translate-y-1/2 absolute bg-[#2e8fff] left-[52px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container9 />
+        </div>
+    );
+}
+
+function Svg13() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[48px] size-[14px] top-1/2"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 14 14"
+            >
+                <g id="SVG">
+                    <path
+                        d="M3.5 5.25L7 8.75L10.5 5.25"
+                        id="Vector"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.16667"
+                    />
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function Container10() {
+    return (
+        <TaskRowLabel
+            left={88}
+            label="Requirement Document"
+            style="deliverable"
+        />
+    );
+}
+
+function HorizontalBorder8() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[352px]"
+            data-name="HorizontalBorder"
+        >
+            <Svg13 />
+            <div
+                className="-translate-y-1/2 absolute bg-[#89c0ff] left-[70px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container10 />
+        </div>
+    );
+}
+
+function Container11() {
+    return (
+        <TaskRowLabel
+            left={106}
+            label="Stakeholder Interviews"
+            style="activity"
+        />
+    );
+}
+
+function HorizontalBorder9() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[396px]"
+            data-name="HorizontalBorder"
+        >
+            <div
+                className="-translate-y-1/2 absolute bg-[#d0e6ff] left-[88px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container11 />
+        </div>
+    );
+}
+
+function Container12() {
+    return (
+        <TaskRowLabel
+            left={106}
+            label="Documentation"
+            style="activity"
+        />
+    );
+}
+
+function HorizontalBorder10() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[440px]"
+            data-name="HorizontalBorder"
+        >
+            <div
+                className="-translate-y-1/2 absolute bg-[#d0e6ff] left-[88px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container12 />
+        </div>
+    );
+}
+
+function Container13() {
+    return (
+        <TaskRowLabel
+            left={106}
+            label="Sign-off"
+            style="activity"
+        />
+    );
+}
+
+function HorizontalBorder11() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[484px]"
+            data-name="HorizontalBorder"
+        >
+            <div
+                className="-translate-y-1/2 absolute bg-[#d0e6ff] left-[88px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container13 />
+        </div>
+    );
+}
+
+function Svg14() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[12px] size-[14px] top-1/2"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 14 14"
+            >
+                <g id="SVG">
+                    <path
+                        d="M3.5 5.25L7 8.75L10.5 5.25"
+                        id="Vector"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.16667"
+                    />
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function Container14() {
+    return (
+        <TaskRowLabel
+            left={52}
+            label="Design"
+        />
+    );
+}
+
+function HorizontalBorder12() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[528px]"
+            data-name="HorizontalBorder"
+        >
+            <Svg14 />
+            <div
+                className="-translate-y-1/2 absolute bg-[#0058bd] left-[34px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container14 />
+        </div>
+    );
+}
+
+function Svg15() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[30px] size-[14px] top-1/2"
+            data-name="SVG"
+        >
+            <svg
+                className="absolute block inset-0 size-full"
+                fill="none"
+                preserveAspectRatio="none"
+                viewBox="0 0 14 14"
+            >
+                <g id="SVG">
+                    <path
+                        d="M3.5 5.25L7 8.75L10.5 5.25"
+                        id="Vector"
+                        stroke="var(--stroke-0, #737373)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.16667"
+                    />
+                </g>
+            </svg>
+        </div>
+    );
+}
+
+function Container15() {
+    return (
+        <TaskRowLabel
+            left={70}
+            label="System Design"
+        />
+    );
+}
+
+function HorizontalBorder13() {
+    return (
+        <div
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[572px]"
+            data-name="HorizontalBorder"
+        >
+            <Svg15 />
+            <div
+                className="-translate-y-1/2 absolute bg-[#2e8fff] left-[52px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container15 />
+        </div>
+    );
+}
+
+function Svg16() {
+    return (
+        <div
+            className="-translate-y-1/2 absolute left-[48px] size-[14px] top-1/2"
             data-name="SVG"
         >
             <svg
@@ -367,14 +1761,14 @@ function Svg3() {
                 <g id="SVG">
                     <g id="Vector">
                         <path
-                            d={svgPaths.p3cd50200}
+                            d="M3.5 5.25L7 8.75L10.5 5.25"
                             stroke="var(--stroke-0, #242429)"
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth="1.16667"
                         />
                         <path
-                            d={svgPaths.p3cd50200}
+                            d="M3.5 5.25L7 8.75L10.5 5.25"
                             stroke="var(--stroke-1, black)"
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -382,7 +1776,7 @@ function Svg3() {
                             strokeWidth="1.16667"
                         />
                         <path
-                            d={svgPaths.p3cd50200}
+                            d="M3.5 5.25L7 8.75L10.5 5.25"
                             stroke="var(--stroke-2, black)"
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -396,854 +1790,28 @@ function Svg3() {
     );
 }
 
-function Svg4() {
+function Container16() {
     return (
-        <div
-            className="-translate-y-1/2 absolute left-[119px] size-[14px] top-1/2"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 14 14"
-            >
-                <g id="SVG">
-                    <path
-                        d="M3.5 5.25L7 8.75L10.5 5.25"
-                        id="Vector"
-                        stroke="var(--stroke-0, #737373)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="1.16667"
-                    />
-                </g>
-            </svg>
-        </div>
+        <TaskRowLabel
+            left={88}
+            label="Architecture Design"
+            style="deliverable"
+        />
     );
 }
 
-function AllPhases() {
+function HorizontalBorder14() {
     return (
         <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[36px] left-[31px] right-[1693px] rounded-[10px] top-[266px]"
-            data-name="All Phases"
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[616px]"
+            data-name="HorizontalBorder"
         >
-            <Svg3 />
-            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[14px] justify-center leading-[0] left-[calc(50%-2px)] not-italic text-[#17171a] text-[13px] text-center top-1/2 w-[66px]">
-                <p className="leading-[20px]">All Phases</p>
-            </div>
-            <Svg4 />
-        </div>
-    );
-}
-
-function Svg5() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[89px] size-[14px] top-1/2"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 14 14"
-            >
-                <g id="SVG">
-                    <path
-                        d="M3.5 5.25L7 8.75L10.5 5.25"
-                        id="Vector"
-                        stroke="var(--stroke-0, #737373)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="1.16667"
-                    />
-                </g>
-            </svg>
-        </div>
-    );
-}
-
-function AllTypes() {
-    return (
-        <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[36px] left-[185px] right-[1568px] rounded-[10px] top-[266px]"
-            data-name="All Types"
-        >
-            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[14px] justify-center leading-[0] left-[calc(50%-16.34px)] not-italic text-[#17171a] text-[13px] text-center top-1/2 w-[56.31px]">
-                <p className="leading-[20px]">All Types</p>
-            </div>
-            <Svg5 />
-        </div>
-    );
-}
-
-function Svg6() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[105.57px] size-[14px] top-1/2"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 14 14"
-            >
-                <g id="SVG">
-                    <path
-                        d="M3.5 5.25L7 8.75L10.5 5.25"
-                        id="Vector"
-                        stroke="var(--stroke-0, #737373)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="1.16667"
-                    />
-                </g>
-            </svg>
-        </div>
-    );
-}
-
-function AllStatues() {
-    return (
-        <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[36px] left-[310px] right-[1427px] rounded-[10px] top-[266px]"
-            data-name="All Statues"
-        >
-            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[14px] justify-center leading-[0] left-[calc(50%-16.61px)] not-italic text-[#17171a] text-[13px] text-center top-1/2 w-[73.78px]">
-                <p className="leading-[20px]">All Statuses</p>
-            </div>
-            <Svg6 />
-        </div>
-    );
-}
-
-function Svg7() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[122px] size-[14px] top-1/2"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 14 14"
-            >
-                <g id="SVG">
-                    <path
-                        d="M3.5 5.25L7 8.75L10.5 5.25"
-                        id="Vector"
-                        stroke="var(--stroke-0, #737373)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="1.16667"
-                    />
-                </g>
-            </svg>
-        </div>
-    );
-}
-
-function Sort() {
-    return (
-        <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[36px] left-[451px] right-[1269px] rounded-[10px] top-[266px]"
-            data-name="Sort"
-        >
-            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[14px] justify-center leading-[0] left-[calc(50%-15.08px)] not-italic text-[#17171a] text-[13px] text-center top-1/2 w-[91.84px]">
-                <p className="leading-[20px]">Sort: End Date</p>
-            </div>
-            <Svg7 />
-        </div>
-    );
-}
-
-function TableHeader() {
-    return (
-        <div
-            className="[word-break:break-word] absolute bg-[rgba(0,114,255,0.1)] border border-[#d5e1ff] border-solid font-bold h-[40px] leading-[0] left-0 not-italic rounded-tl-[10px] rounded-tr-[10px] text-[11px] top-0 tracking-[1px] uppercase w-[1807px] whitespace-nowrap"
-            data-name="Table Header"
-        >
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[19px] right-[1778px] text-[#17171a] top-[18.5px]">
-                <p className="leading-[16.5px]">#</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[63px] right-[1700px] text-[#17171a] top-[18.5px]">
-                <p className="leading-[16.5px]">Phase</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[167px] right-[1537px] text-[#17171a] top-[18.5px]">
-                <p className="leading-[16.5px]">Work Package</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[330px] right-[1390px] text-[#17171a] top-[18.5px]">
-                <p className="leading-[16.5px]">Deliverable</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[477px] right-[1242px] text-[#3170ad] top-[18.5px]">
-                <p className="leading-[16.5px]">Responsible</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[625px] right-[1086px] text-[#3170ad] top-[18.5px]">
-                <p className="leading-[16.5px]">Accountable</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[781px] right-[948px] text-[#3170ad] top-[18.5px]">
-                <p className="leading-[16.5px]">Consulted</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[919px] right-[820px] text-[#3170ad] top-[18.5px]">
-                <p className="leading-[16.5px]">Informed</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[1037px] right-[719px] text-[#17171a] top-[18.5px]">
-                <p className="leading-[16.5px]">Status</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[1188px] right-[555px] text-[#17171a] top-[18.5px]">
-                <p className="leading-[16.5px]">Due Date</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[1312px] right-[395px] text-[#17171a] top-[18.5px]">
-                <p className="leading-[16.5px]">Delivery Date</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[1472px] right-[291px] text-[#17171a] top-[18.5px]">
-                <p className="leading-[16.5px]">Notes</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[1576px] right-[152px] text-[#17171a] top-[18.5px]">
-                <p className="leading-[16.5px]">Start date</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[1704px] right-[39px] text-[#17171a] top-[18.5px]">
-                <p className="leading-[16.5px]">End date</p>
-            </div>
-        </div>
-    );
-}
-
-function Svg8() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[10px] size-[12px] top-1/2"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g
-                    clipPath="url(#clip0_1_2908)"
-                    id="SVG"
-                >
-                    <path
-                        d={svgPaths.p3e7757b0}
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                    <path
-                        d="M6 3V6L8 7"
-                        id="Vector_2"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-                <defs>
-                    <clipPath id="clip0_1_2908">
-                        <rect
-                            fill="white"
-                            height="12"
-                            width="12"
-                        />
-                    </clipPath>
-                </defs>
-            </svg>
-        </div>
-    );
-}
-
-function Status() {
-    return (
-        <div
-            className="absolute bg-[rgba(0,114,255,0.1)] border border-[#d5e1ff] border-solid h-[26px] left-[1038px] opacity-80 right-[689px] rounded-[8px] top-[12px]"
-            data-name="Status"
-        >
-            <Svg8 />
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[28px] not-italic text-[#3170ad] text-[11px] top-[calc(50%+0.5px)] whitespace-nowrap">
-                <p className="leading-[16.5px]">Started</p>
-            </div>
-        </div>
-    );
-}
-
-function TasksRow() {
-    return (
-        <div
-            className="absolute border-[#d5e1ff] border-b border-solid h-[50px] left-[-1px] top-[50px] w-[1807px]"
-            data-name="Tasks Row"
-        >
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[21px] not-italic right-[1779px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">1</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[64px] not-italic right-[1694px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Starting</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[168px] not-italic right-[1610px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">MVP</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[331px] not-italic right-[1382px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Project Charter</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[478px] not-italic right-[1251px] text-[#5803cf] text-[0px] top-[25.5px] whitespace-nowrap">
-                <p className="font-bold leading-[16.5px] text-[11px]">
-                    + Alex Morgan
-                </p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[626px] not-italic right-[1127px] text-[#5803cf] text-[0px] top-[25.5px] whitespace-nowrap">
-                <p className="font-bold leading-[16.5px] text-[11px]">
-                    + Jesse Li
-                </p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[782px] not-italic right-[979px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[920px] not-italic right-[841px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1189px] not-italic right-[553px] text-[#3170ad] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1577px] not-italic right-[165px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1705px] not-italic right-[37px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 3, 2026</p>
-            </div>
-            <Status />
-        </div>
-    );
-}
-
-function Svg9() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[10.08px] size-[12px] top-[calc(50%-0.36px)]"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g
-                    clipPath="url(#clip0_1_2908)"
-                    id="SVG"
-                >
-                    <path
-                        d={svgPaths.p3e7757b0}
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                    <path
-                        d="M6 3V6L8 7"
-                        id="Vector_2"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-                <defs>
-                    <clipPath id="clip0_1_2908">
-                        <rect
-                            fill="white"
-                            height="12"
-                            width="12"
-                        />
-                    </clipPath>
-                </defs>
-            </svg>
-        </div>
-    );
-}
-
-function Svg10() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[94.8px] size-[12px] top-[calc(50%-0.36px)]"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g id="SVG">
-                    <path
-                        d="M3 4.5L6 7.5L9 4.5"
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-            </svg>
-        </div>
-    );
-}
-
-function Status1() {
-    return (
-        <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[26px] left-[1038px] right-[650.28px] rounded-[8px] top-[12px]"
-            data-name="Status"
-        >
-            <Svg9 />
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[12px] justify-center leading-[0] left-[28.08px] not-italic text-[#3170ad] text-[11px] top-[calc(50%-0.36px)] w-[60.92px]">
-                <p className="leading-[16.5px]">Not Started</p>
-            </div>
-            <Svg10 />
-        </div>
-    );
-}
-
-function TasksRow1() {
-    return (
-        <div
-            className="absolute border-[#d5e1ff] border-b border-solid h-[50px] left-[-1px] top-[350px] w-[1807px]"
-            data-name="Tasks Row"
-        >
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[21px] not-italic right-[1779px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">1</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[64px] not-italic right-[1694px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Starting</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[168px] not-italic right-[1610px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">MVP</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[331px] not-italic right-[1382px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Discovery Report</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[478px] not-italic right-[1251px] text-[#5803cf] text-[0px] top-[25.5px] whitespace-nowrap">
-                <p className="font-bold leading-[16.5px] text-[11px]">
-                    + Alex Morgan
-                </p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[626px] not-italic right-[1135px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[782px] not-italic right-[979px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[920px] not-italic right-[841px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1189px] not-italic right-[553px] text-[#3170ad] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1577px] not-italic right-[165px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1705px] not-italic right-[37px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 3, 2026</p>
-            </div>
-            <Status1 />
-        </div>
-    );
-}
-
-function Svg11() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[10.08px] size-[12px] top-[calc(50%-0.36px)]"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g
-                    clipPath="url(#clip0_1_2908)"
-                    id="SVG"
-                >
-                    <path
-                        d={svgPaths.p3e7757b0}
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                    <path
-                        d="M6 3V6L8 7"
-                        id="Vector_2"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-                <defs>
-                    <clipPath id="clip0_1_2908">
-                        <rect
-                            fill="white"
-                            height="12"
-                            width="12"
-                        />
-                    </clipPath>
-                </defs>
-            </svg>
-        </div>
-    );
-}
-
-function Svg12() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[94.8px] size-[12px] top-[calc(50%-0.36px)]"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g id="SVG">
-                    <path
-                        d="M3 4.5L6 7.5L9 4.5"
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-            </svg>
-        </div>
-    );
-}
-
-function Status2() {
-    return (
-        <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[26px] left-[1038px] right-[650.28px] rounded-[8px] top-[12px]"
-            data-name="Status"
-        >
-            <Svg11 />
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[12px] justify-center leading-[0] left-[28.08px] not-italic text-[#3170ad] text-[11px] top-[calc(50%-0.36px)] w-[60.92px]">
-                <p className="leading-[16.5px]">Not Started</p>
-            </div>
-            <Svg12 />
-        </div>
-    );
-}
-
-function TasksRow2() {
-    return (
-        <div
-            className="absolute border-[#d5e1ff] border-b border-solid h-[50px] left-[-1px] top-[100px] w-[1807px]"
-            data-name="Tasks Row"
-        >
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[21px] not-italic right-[1778px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">2</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[64px] not-italic right-[1694px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Starting</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[168px] not-italic right-[1610px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">MVP</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[331px] not-italic right-[1382px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Brand Positioning</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[478px] not-italic right-[1251px] text-[#5803cf] text-[0px] top-[25.5px] whitespace-nowrap">
-                <p className="font-bold leading-[16.5px] text-[11px]">
-                    + Alex Morgan
-                </p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[626px] not-italic right-[1135px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[782px] not-italic right-[979px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[920px] not-italic right-[841px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1189px] not-italic right-[553px] text-[#3170ad] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1577px] not-italic right-[165px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1705px] not-italic right-[37px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 3, 2026</p>
-            </div>
-            <Status2 />
-        </div>
-    );
-}
-
-function Svg13() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[10.08px] size-[12px] top-[calc(50%-0.36px)]"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g
-                    clipPath="url(#clip0_1_2908)"
-                    id="SVG"
-                >
-                    <path
-                        d={svgPaths.p3e7757b0}
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                    <path
-                        d="M6 3V6L8 7"
-                        id="Vector_2"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-                <defs>
-                    <clipPath id="clip0_1_2908">
-                        <rect
-                            fill="white"
-                            height="12"
-                            width="12"
-                        />
-                    </clipPath>
-                </defs>
-            </svg>
-        </div>
-    );
-}
-
-function Svg14() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[94.8px] size-[12px] top-[calc(50%-0.36px)]"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g id="SVG">
-                    <path
-                        d="M3 4.5L6 7.5L9 4.5"
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-            </svg>
-        </div>
-    );
-}
-
-function Status3() {
-    return (
-        <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[26px] left-[1038px] right-[650.28px] rounded-[8px] top-[12px]"
-            data-name="Status"
-        >
-            <Svg13 />
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[12px] justify-center leading-[0] left-[28.08px] not-italic text-[#3170ad] text-[11px] top-[calc(50%-0.36px)] w-[60.92px]">
-                <p className="leading-[16.5px]">Not Started</p>
-            </div>
-            <Svg14 />
-        </div>
-    );
-}
-
-function TasksRow3() {
-    return (
-        <div
-            className="absolute border-[#d5e1ff] border-b border-solid h-[50px] left-[-1px] top-[400px] w-[1807px]"
-            data-name="Tasks Row"
-        >
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[21px] not-italic right-[1778px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">2</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[64px] not-italic right-[1694px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Starting</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[168px] not-italic right-[1610px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">MVP</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[331px] not-italic right-[1382px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Creative Direction</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[478px] not-italic right-[1251px] text-[#5803cf] text-[0px] top-[25.5px] whitespace-nowrap">
-                <p className="font-bold leading-[16.5px] text-[11px]">
-                    + Alex Morgan
-                </p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[626px] not-italic right-[1135px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[782px] not-italic right-[979px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[920px] not-italic right-[841px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1189px] not-italic right-[553px] text-[#3170ad] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1577px] not-italic right-[165px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1705px] not-italic right-[37px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 3, 2026</p>
-            </div>
-            <Status3 />
-        </div>
-    );
-}
-
-function Svg15() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[10.08px] size-[12px] top-[calc(50%-0.36px)]"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g
-                    clipPath="url(#clip0_1_2908)"
-                    id="SVG"
-                >
-                    <path
-                        d={svgPaths.p3e7757b0}
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                    <path
-                        d="M6 3V6L8 7"
-                        id="Vector_2"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-                <defs>
-                    <clipPath id="clip0_1_2908">
-                        <rect
-                            fill="white"
-                            height="12"
-                            width="12"
-                        />
-                    </clipPath>
-                </defs>
-            </svg>
-        </div>
-    );
-}
-
-function Svg16() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[94.8px] size-[12px] top-[calc(50%-0.36px)]"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g id="SVG">
-                    <path
-                        d="M3 4.5L6 7.5L9 4.5"
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-            </svg>
-        </div>
-    );
-}
-
-function Status4() {
-    return (
-        <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[26px] left-[1038px] right-[650.28px] rounded-[8px] top-[12px]"
-            data-name="Status"
-        >
-            <Svg15 />
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[12px] justify-center leading-[0] left-[28.08px] not-italic text-[#3170ad] text-[11px] top-[calc(50%-0.36px)] w-[60.92px]">
-                <p className="leading-[16.5px]">Not Started</p>
-            </div>
             <Svg16 />
-        </div>
-    );
-}
-
-function TasksRow4() {
-    return (
-        <div
-            className="absolute border-[#d5e1ff] border-b border-solid h-[50px] left-[-1px] top-[150px] w-[1807px]"
-            data-name="Tasks Row"
-        >
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[21px] not-italic right-[1777px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">3</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[64px] not-italic right-[1694px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Starting</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[168px] not-italic right-[1610px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">MVP</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[331px] not-italic right-[1382px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Logo Exploration</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[478px] not-italic right-[1251px] text-[#5803cf] text-[0px] top-[25.5px] whitespace-nowrap">
-                <p className="font-bold leading-[16.5px] text-[11px]">
-                    + Alex Morgan
-                </p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[626px] not-italic right-[1135px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[782px] not-italic right-[979px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[920px] not-italic right-[841px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1189px] not-italic right-[553px] text-[#3170ad] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1577px] not-italic right-[165px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1705px] not-italic right-[37px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 3, 2026</p>
-            </div>
-            <Status4 />
+            <div
+                className="-translate-y-1/2 absolute bg-[#89c0ff] left-[70px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container16 />
         </div>
     );
 }
@@ -1251,67 +1819,23 @@ function TasksRow4() {
 function Svg17() {
     return (
         <div
-            className="-translate-y-1/2 absolute left-[10.08px] size-[12px] top-[calc(50%-0.36px)]"
+            className="-translate-y-1/2 absolute left-[48px] size-[14px] top-1/2"
             data-name="SVG"
         >
             <svg
                 className="absolute block inset-0 size-full"
                 fill="none"
                 preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g
-                    clipPath="url(#clip0_1_2908)"
-                    id="SVG"
-                >
-                    <path
-                        d={svgPaths.p3e7757b0}
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                    <path
-                        d="M6 3V6L8 7"
-                        id="Vector_2"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-                <defs>
-                    <clipPath id="clip0_1_2908">
-                        <rect
-                            fill="white"
-                            height="12"
-                            width="12"
-                        />
-                    </clipPath>
-                </defs>
-            </svg>
-        </div>
-    );
-}
-
-function Svg18() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute left-[94.8px] size-[12px] top-[calc(50%-0.36px)]"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
+                viewBox="0 0 14 14"
             >
                 <g id="SVG">
                     <path
-                        d="M3 4.5L6 7.5L9 4.5"
+                        d="M3.5 5.25L7 8.75L10.5 5.25"
                         id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
+                        stroke="var(--stroke-0, #737373)"
                         strokeLinecap="round"
                         strokeLinejoin="round"
+                        strokeWidth="1.16667"
                     />
                 </g>
             </svg>
@@ -1319,520 +1843,366 @@ function Svg18() {
     );
 }
 
-function Status5() {
+function Container17() {
+    return (
+        <TaskRowLabel
+            left={88}
+            label="UI Design"
+            style="deliverable"
+        />
+    );
+}
+
+function HorizontalBorder15() {
     return (
         <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[26px] left-[1038px] right-[650.28px] rounded-[8px] top-[12px]"
-            data-name="Status"
+            className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-0 right-0 top-[660px]"
+            data-name="HorizontalBorder"
         >
             <Svg17 />
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[12px] justify-center leading-[0] left-[28.08px] not-italic text-[#3170ad] text-[11px] top-[calc(50%-0.36px)] w-[60.92px]">
-                <p className="leading-[16.5px]">Not Started</p>
-            </div>
-            <Svg18 />
+            <div
+                className="-translate-y-1/2 absolute bg-[#89c0ff] left-[70px] rounded-[33554400px] size-[10px] top-1/2"
+                data-name="Background"
+            />
+            <Container17 />
         </div>
     );
 }
 
-function TasksRow5() {
+function TaskTable() {
     return (
         <div
-            className="absolute border-[#d5e1ff] border-b border-solid h-[50px] left-[-1px] top-[200px] w-[1807px]"
-            data-name="Tasks Row"
+            className="absolute border-[#d5e1ff] border-r border-solid h-[704px] left-0 right-[1007px] top-[74.5px]"
+            data-name="Task Table"
         >
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[21px] not-italic right-[1777px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">4</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[64px] not-italic right-[1694px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Starting</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[168px] not-italic right-[1610px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">MVP</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[331px] not-italic right-[1382px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Style Guide v1</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[478px] not-italic right-[1251px] text-[#5803cf] text-[0px] top-[25.5px] whitespace-nowrap">
-                <p className="font-bold leading-[16.5px] text-[11px]">
-                    + Alex Morgan
-                </p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[626px] not-italic right-[1135px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[782px] not-italic right-[979px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[920px] not-italic right-[841px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1189px] not-italic right-[553px] text-[#3170ad] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1577px] not-italic right-[165px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1705px] not-italic right-[37px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 3, 2026</p>
-            </div>
-            <Status5 />
+            <HorizontalBorder />
+            <HorizontalBorder1 />
+            <HorizontalBorder2 />
+            <HorizontalBorder3 />
+            <HorizontalBorder4 />
+            <HorizontalBorder5 />
+            <HorizontalBorder6 />
+            <HorizontalBorder7 />
+            <HorizontalBorder8 />
+            <HorizontalBorder9 />
+            <HorizontalBorder10 />
+            <HorizontalBorder11 />
+            <HorizontalBorder12 />
+            <HorizontalBorder13 />
+            <HorizontalBorder14 />
+            <HorizontalBorder15 />
         </div>
     );
 }
 
-function Svg19() {
+function GanttChart() {
     return (
         <div
-            className="-translate-y-1/2 absolute left-[10.08px] size-[12px] top-[calc(50%-0.36px)]"
-            data-name="SVG"
+            className="absolute bg-white border border-[#d5e1ff] border-solid h-[780px] left-[32px] overflow-clip right-[-197px] rounded-[14px] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.1),0px_1px_2px_-1px_rgba(0,0,0,0.1)] top-[233px]"
+            data-name="Gantt chart"
         >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g
-                    clipPath="url(#clip0_1_2908)"
-                    id="SVG"
-                >
-                    <path
-                        d={svgPaths.p3e7757b0}
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                    <path
-                        d="M6 3V6L8 7"
-                        id="Vector_2"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-                <defs>
-                    <clipPath id="clip0_1_2908">
-                        <rect
-                            fill="white"
-                            height="12"
-                            width="12"
-                        />
-                    </clipPath>
-                </defs>
-            </svg>
+            <Month />
+            <WeekTable />
+            <TaskTable />
         </div>
     );
 }
 
-function Svg20() {
+function Background1() {
     return (
         <div
-            className="-translate-y-1/2 absolute left-[94.8px] size-[12px] top-[calc(50%-0.36px)]"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g id="SVG">
-                    <path
-                        d="M3 4.5L6 7.5L9 4.5"
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-            </svg>
-        </div>
-    );
-}
-
-function Status6() {
-    return (
-        <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[26px] left-[1038px] right-[650.28px] rounded-[8px] top-[12px]"
-            data-name="Status"
-        >
-            <Svg19 />
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[12px] justify-center leading-[0] left-[28.08px] not-italic text-[#3170ad] text-[11px] top-[calc(50%-0.36px)] w-[60.92px]">
-                <p className="leading-[16.5px]">Not Started</p>
-            </div>
-            <Svg20 />
-        </div>
-    );
-}
-
-function TasksRow6() {
-    return (
-        <div
-            className="absolute border-[#d5e1ff] border-b border-solid h-[50px] left-[-1px] top-[250px] w-[1807px]"
-            data-name="Tasks Row"
-        >
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[21px] not-italic right-[1778px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">5</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[64px] not-italic right-[1694px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Starting</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[168px] not-italic right-[1610px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">MVP</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[331px] not-italic right-[1382px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Launch Plan</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[478px] not-italic right-[1251px] text-[#5803cf] text-[0px] top-[25.5px] whitespace-nowrap">
-                <p className="font-bold leading-[16.5px] text-[11px]">
-                    + Alex Morgan
-                </p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[626px] not-italic right-[1135px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[782px] not-italic right-[979px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[920px] not-italic right-[841px] text-[11px] text-[rgba(88,3,207,0.42)] text-center top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">+ Assign</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1189px] not-italic right-[553px] text-[#3170ad] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1577px] not-italic right-[165px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1705px] not-italic right-[37px] text-[#17171a] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 3, 2026</p>
-            </div>
-            <Status6 />
-        </div>
-    );
-}
-
-function DataSvg() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute h-[16px] left-[16px] overflow-clip right-[1775px] top-[calc(50%+1px)]"
-            data-name="Data → SVG"
+            className="absolute bg-[#00b88b] left-[-12px] rounded-[33554400px] size-[24px] top-[-12px]"
+            data-name="Background"
         >
             <div
-                className="absolute bottom-[37.5%] left-1/4 right-1/4 top-[37.5%]"
-                data-name="Vector"
-            >
-                <div className="absolute inset-[-16.67%_-8.33%]">
-                    <svg
-                        className="block size-full"
-                        fill="none"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 9.33333 5.33333"
-                    >
-                        <g id="Vector">
-                            <path
-                                d={svgPaths.p32098840}
-                                stroke="var(--stroke-0, #242429)"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="1.33333"
-                            />
-                            <path
-                                d={svgPaths.p32098840}
-                                stroke="var(--stroke-1, black)"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeOpacity="0.2"
-                                strokeWidth="1.33333"
-                            />
-                            <path
-                                d={svgPaths.p32098840}
-                                stroke="var(--stroke-2, black)"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeOpacity="0.2"
-                                strokeWidth="1.33333"
-                            />
-                        </g>
-                    </svg>
-                </div>
+                className="absolute bg-[rgba(255,255,255,0)] left-0 rounded-[33554400px] shadow-[0px_0px_0px_2px_white,0px_1px_3px_0px_rgba(0,0,0,0.1),0px_1px_2px_-1px_rgba(0,0,0,0.1)] size-[24px] top-0"
+                data-name="Overlay+Shadow"
+            />
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[11px] justify-center leading-[0] left-[calc(50%+0.1px)] not-italic text-[0px] text-center text-white top-[calc(50%+0.25px)] w-[7.54px]">
+                <p className="font-bold leading-[16.5px] text-[11px]">S</p>
             </div>
         </div>
     );
 }
 
-function Data() {
+function VerticalDivider() {
     return (
         <div
-            className="[word-break:break-word] absolute h-[20px] leading-[0] left-[64px] not-italic right-[1041.48px] top-[16px] whitespace-nowrap"
-            data-name="Data"
+            className="absolute bg-[#01b88b] h-[704px] left-[calc(25%+77px)] right-[calc(50%+218px)] top-[308.5px]"
+            data-name="Vertical Divider"
         >
-            <div className="-translate-y-1/2 absolute flex flex-col font-normal justify-center left-0 text-[#17171a] text-[0px] top-[calc(50%+0.5px)]">
-                <p className="font-bold leading-[20px] text-[13px]">
-                    Initiation
-                </p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col font-bold justify-center left-[79px] text-[#3170ad] text-[11px] top-[calc(50%+1px)] tracking-[1px] uppercase">
-                <p className="leading-[16.5px]">1/5 done</p>
-            </div>
+            <Background1 />
         </div>
     );
 }
 
-function Svg21() {
+function Background2() {
     return (
         <div
-            className="-translate-y-1/2 absolute left-[10px] size-[12px] top-1/2"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g
-                    clipPath="url(#clip0_1_2908)"
-                    id="SVG"
-                >
-                    <path
-                        d={svgPaths.p3e7757b0}
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                    <path
-                        d="M6 3V6L8 7"
-                        id="Vector_2"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-                <defs>
-                    <clipPath id="clip0_1_2908">
-                        <rect
-                            fill="white"
-                            height="12"
-                            width="12"
-                        />
-                    </clipPath>
-                </defs>
-            </svg>
-        </div>
-    );
-}
-
-function Status7() {
-    return (
-        <div
-            className="absolute bg-[rgba(0,114,255,0.1)] border border-[#d5e1ff] border-solid h-[26px] left-[1038px] opacity-80 right-[689px] rounded-[8px] top-[13px]"
-            data-name="Status"
-        >
-            <Svg21 />
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[28px] not-italic text-[#3170ad] text-[11px] top-[calc(50%+0.5px)] whitespace-nowrap">
-                <p className="leading-[16.5px]">Started</p>
-            </div>
-        </div>
-    );
-}
-
-function ProjectTasksTableRow() {
-    return (
-        <div
-            className="absolute bg-[rgba(0,114,255,0.04)] border-[#d5e1ff] border-b border-solid h-[51px] left-[-1px] top-[-1px] w-[1807px]"
-            data-name="Project Tasks Table Row"
-        >
-            <DataSvg />
-            <Data />
-            <Status7 />
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1189px] not-italic right-[553px] text-[#737373] text-[11px] top-[26.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 6, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1577px] not-italic right-[165px] text-[#737373] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1705px] not-italic right-[37px] text-[#737373] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 6, 2026</p>
-            </div>
-        </div>
-    );
-}
-
-function DataSvg1() {
-    return (
-        <div
-            className="-translate-y-1/2 absolute h-[16px] left-[16px] overflow-clip right-[1775px] top-[calc(50%+1px)]"
-            data-name="Data → SVG"
+            className="absolute bg-[#c92a2a] left-[-12px] rounded-[33554400px] size-[24px] top-[-12px]"
+            data-name="Background"
         >
             <div
-                className="absolute bottom-[37.5%] left-1/4 right-1/4 top-[37.5%]"
-                data-name="Vector"
+                className="absolute bg-[rgba(255,255,255,0)] left-0 rounded-[33554400px] shadow-[0px_0px_0px_2px_white,0px_1px_3px_0px_rgba(0,0,0,0.1),0px_1px_2px_-1px_rgba(0,0,0,0.1)] size-[24px] top-0"
+                data-name="Overlay+Shadow"
+            />
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-bold h-[11px] justify-center leading-[0] left-[calc(50%+0.1px)] not-italic text-[11px] text-center text-white top-[calc(50%-0.75px)] w-[7.54px]">
+                <p className="leading-[16.5px]">E</p>
+            </div>
+        </div>
+    );
+}
+
+function VerticalDivider1() {
+    return (
+        <div
+            className="absolute bg-[#c92a2a] h-[704px] left-[calc(75%+45px)] right-[250px] top-[308.5px]"
+            data-name="Vertical Divider"
+        >
+            <Background2 />
+        </div>
+    );
+}
+
+const TIMELINE_BAR_CLASS =
+    "absolute flex h-[24px] min-w-0 items-center gap-[3px] overflow-hidden rounded-[8px] px-[6px] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.1),0px_1px_2px_-1px_rgba(0,0,0,0.1)]";
+
+function TimelineBarCap() {
+    return (
+        <div
+            className="h-[12px] w-[3px] shrink-0 rounded-[6px] bg-white"
+            data-name="Overlay"
+        />
+    );
+}
+
+function TimelineBarLabel({ label, color }: { label: string; color: string }) {
+    return (
+        <div
+            className="flex h-full min-w-0 flex-1 items-center justify-start overflow-hidden px-[2px]"
+            data-name="Container"
+        >
+            <span
+                className="block min-w-0 overflow-hidden text-ellipsis font-bold text-[10px] leading-[10px] tracking-[0.2px] whitespace-nowrap"
+                style={{ color }}
             >
-                <div className="absolute inset-[-16.67%_-8.33%]">
-                    <svg
-                        className="block size-full"
-                        fill="none"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 9.33333 5.33333"
-                    >
-                        <g id="Vector">
-                            <path
-                                d={svgPaths.p32098840}
-                                stroke="var(--stroke-0, #242429)"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="1.33333"
-                            />
-                            <path
-                                d={svgPaths.p32098840}
-                                stroke="var(--stroke-1, black)"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeOpacity="0.2"
-                                strokeWidth="1.33333"
-                            />
-                            <path
-                                d={svgPaths.p32098840}
-                                stroke="var(--stroke-2, black)"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeOpacity="0.2"
-                                strokeWidth="1.33333"
-                            />
-                        </g>
-                    </svg>
-                </div>
-            </div>
+                {label}
+            </span>
         </div>
     );
 }
 
-function Data1() {
+function TimelineBar({
+    position,
+    bg,
+    label,
+    color,
+}: {
+    position: string;
+    bg: string;
+    label: string;
+    color: string;
+}) {
     return (
         <div
-            className="[word-break:break-word] absolute h-[20px] leading-[0] left-[64px] not-italic right-[1041.48px] top-[16px] whitespace-nowrap"
-            data-name="Data"
+            className={`${TIMELINE_BAR_CLASS} ${position} ${bg}`}
+            data-name="Background"
         >
-            <div className="-translate-y-1/2 absolute flex flex-col font-normal justify-center left-0 text-[#17171a] text-[0px] top-[calc(50%+0.5px)]">
-                <p className="font-bold leading-[20px] text-[13px]">Planning</p>
-            </div>
-            <div className="-translate-y-1/2 absolute flex flex-col font-bold justify-center left-[79px] text-[#3170ad] text-[11px] top-[calc(50%+1px)] tracking-[1px] uppercase">
-                <p className="leading-[16.5px]">0/2 done</p>
-            </div>
+            <TimelineBarCap />
+            <TimelineBarLabel
+                label={label}
+                color={color}
+            />
+            <TimelineBarCap />
         </div>
     );
 }
 
-function Svg22() {
+function Background3() {
     return (
-        <div
-            className="-translate-y-1/2 absolute left-[10px] size-[12px] top-1/2"
-            data-name="SVG"
-        >
-            <svg
-                className="absolute block inset-0 size-full"
-                fill="none"
-                preserveAspectRatio="none"
-                viewBox="0 0 12 12"
-            >
-                <g
-                    clipPath="url(#clip0_1_2908)"
-                    id="SVG"
-                >
-                    <path
-                        d={svgPaths.p3e7757b0}
-                        id="Vector"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                    <path
-                        d="M6 3V6L8 7"
-                        id="Vector_2"
-                        stroke="var(--stroke-0, #3170AD)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </g>
-                <defs>
-                    <clipPath id="clip0_1_2908">
-                        <rect
-                            fill="white"
-                            height="12"
-                            width="12"
-                        />
-                    </clipPath>
-                </defs>
-            </svg>
-        </div>
+        <TimelineBar
+            position="top-[318.5px] left-[calc(25%+83px)] right-[calc(50%+113px)]"
+            bg="bg-[#0058bd]"
+            label="Initiation"
+            color="#ffffff"
+        />
     );
 }
 
-function Status8() {
+function Background4() {
     return (
-        <div
-            className="absolute bg-[rgba(0,114,255,0.1)] border border-[#d5e1ff] border-solid h-[26px] left-[1038px] opacity-80 right-[689px] rounded-[8px] top-[13px]"
-            data-name="Status"
-        >
-            <Svg22 />
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[28px] not-italic text-[#3170ad] text-[11px] top-[calc(50%+0.5px)] whitespace-nowrap">
-                <p className="leading-[16.5px]">Started</p>
-            </div>
-        </div>
+        <TimelineBar
+            position="top-[362.5px] left-[calc(25%+83px)] right-[calc(50%+113px)]"
+            bg="bg-[#3170ad]"
+            label="Project Setup"
+            color="#ffffff"
+        />
     );
 }
 
-function ProjectTasksTableRow1() {
+function Background5() {
     return (
-        <div
-            className="absolute bg-[rgba(0,114,255,0.04)] border-[#d5e1ff] border-b border-solid h-[51px] left-[-1px] top-[299px] w-[1807px]"
-            data-name="Project Tasks Table Row"
-        >
-            <DataSvg1 />
-            <Data1 />
-            <Status8 />
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1189px] not-italic right-[553px] text-[#737373] text-[11px] top-[26.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 6, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1577px] not-italic right-[165px] text-[#737373] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 2, 2026</p>
-            </div>
-            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[1705px] not-italic right-[37px] text-[#737373] text-[11px] top-[25.5px] whitespace-nowrap">
-                <p className="leading-[16.5px]">May 6, 2026</p>
-            </div>
-        </div>
+        <TimelineBar
+            position="top-[406.5px] left-[calc(25%+83px)] right-[calc(50%+113px)]"
+            bg="bg-[#89c0ff]"
+            label="Project Charter"
+            color="#17171a"
+        />
     );
 }
 
-function Body() {
+function Background6() {
     return (
-        <div
-            className="absolute bg-white border border-[#d5e1ff] border-solid h-[455px] left-0 top-[39px] w-[1807px]"
-            data-name="Body"
-        >
-            <TasksRow />
-            <TasksRow1 />
-            <TasksRow2 />
-            <TasksRow3 />
-            <TasksRow4 />
-            <TasksRow5 />
-            <TasksRow6 />
-            <ProjectTasksTableRow />
-            <ProjectTasksTableRow1 />
-        </div>
+        <TimelineBar
+            position="top-[450.5px] left-[calc(25%+83px)] right-[calc(50%+113px)]"
+            bg="bg-[#d0e6ff]"
+            label="Draft Charter"
+            color="#17171a"
+        />
     );
 }
 
-function Table() {
+function Background7() {
+    return (
+        <TimelineBar
+            position="top-[494.5px] left-[calc(25%+195px)] right-[calc(50%+1px)]"
+            bg="bg-[#d0e6ff]"
+            label="Review Charter"
+            color="#17171a"
+        />
+    );
+}
+
+function Background8() {
+    return (
+        <TimelineBar
+            position="top-[538.5px] left-[calc(25%+195px)] right-[calc(50%+1px)]"
+            bg="bg-[#d0e6ff]"
+            label="Approve Charter"
+            color="#17171a"
+        />
+    );
+}
+
+function Background9() {
+    return (
+        <TimelineBar
+            position="top-[582.5px] left-[calc(25%+195px)] right-[calc(25%+185px)]"
+            bg="bg-[#0058bd]"
+            label="Planning"
+            color="#ffffff"
+        />
+    );
+}
+
+function Background10() {
+    return (
+        <TimelineBar
+            position="top-[626.5px] left-[calc(25%+195px)] right-[calc(25%+185px)]"
+            bg="bg-[#2e8fff]"
+            label="Requirement Gathering"
+            color="#ffffff"
+        />
+    );
+}
+
+function Background11() {
+    return (
+        <TimelineBar
+            position="top-[670.5px] left-[calc(50%+11px)] right-[calc(25%+185px)]"
+            bg="bg-[#89c0ff]"
+            label="Requirement Document"
+            color="#17171a"
+        />
+    );
+}
+
+function Background12() {
+    return (
+        <TimelineBar
+            position="top-[714.5px] left-[calc(50%+11px)] right-[calc(25%+185px)]"
+            bg="bg-[#d0e6ff]"
+            label="Stakeholder Interviews"
+            color="#17171a"
+        />
+    );
+}
+
+function Background13() {
+    return (
+        <TimelineBar
+            position="top-[758.5px] left-[calc(50%+11px)] right-[calc(25%+185px)]"
+            bg="bg-[#d0e6ff]"
+            label="Documentation"
+            color="#17171a"
+        />
+    );
+}
+
+function Background14() {
+    return (
+        <TimelineBar
+            position="top-[802.5px] left-[calc(50%+11px)] right-[calc(25%+185px)]"
+            bg="bg-[#d0e6ff]"
+            label="Sign-off"
+            color="#17171a"
+        />
+    );
+}
+
+function Background15() {
+    return (
+        <TimelineBar
+            position="top-[846.5px] left-[calc(50%+11px)] right-[calc(25%+185px)]"
+            bg="bg-[#0058bd]"
+            label="Design"
+            color="#ffffff"
+        />
+    );
+}
+
+function Background16() {
+    return (
+        <TimelineBar
+            position="top-[890.5px] left-[calc(50%+11px)] right-[calc(25%+185px)]"
+            bg="bg-[#89c0ff]"
+            label="System Design"
+            color="#17171a"
+        />
+    );
+}
+
+function Background17() {
+    return (
+        <TimelineBar
+            position="top-[934.5px] left-[calc(50%+123px)] right-[calc(25%+73px)]"
+            bg="bg-[#89c0ff]"
+            label="Architecture Design"
+            color="#17171a"
+        />
+    );
+}
+
+function Background18() {
+    return (
+        <TimelineBar
+            position="top-[978.5px] left-[calc(50%+123px)] right-[calc(25%+73px)]"
+            bg="bg-[#89c0ff]"
+            label="UI Design"
+            color="#17171a"
+        />
+    );
+}
+
+function Background19() {
     return (
         <div
-            className="absolute bg-white h-[499px] left-[31px] right-[30px] rounded-tl-[20px] rounded-tr-[20px] top-[319px]"
-            data-name="Table"
+            className="absolute top-[329px] left-[calc(75%+1px)] flex h-[23px] w-fit items-center justify-center rounded-[8px] bg-[#c92a2a] px-[10px] whitespace-nowrap shadow-[0px_1px_3px_0px_rgba(0,0,0,0.1),0px_1px_2px_-1px_rgba(0,0,0,0.1)]"
+            data-name="Background"
         >
-            <TableHeader />
-            <Body />
+            <p className="font-bold text-[10px] leading-[15px] tracking-[0.2px] text-white whitespace-nowrap">
+                May 25, 2026
+            </p>
         </div>
     );
 }
@@ -1840,16 +2210,146 @@ function Table() {
 function Main() {
     return (
         <div
-            className="absolute inset-[81px_-684px_-1px_256px]"
+            className="absolute bg-[#f5fbff] h-[944px] left-[256px] right-0 top-[81px]"
             data-name="Main"
         >
-            <Header />
-            <Project />
-            <AllPhases />
-            <AllTypes />
-            <AllStatues />
-            <Sort />
-            <Table />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-bold justify-center leading-[0] left-[32px] not-italic right-[calc(75%+53px)] text-[#17171a] text-[0px] top-[50px] tracking-[-0.5px] whitespace-nowrap">
+                <p className="text-[30px]">
+                    <span className="leading-[normal]">Timeline</span>
+                    <span className="[word-break:break-word] font-bold leading-[normal] not-italic text-[#17171a] tracking-[-0.5px]">{` Chart`}</span>
+                </p>
+            </div>
+            <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[32px] not-italic text-[#3170ad] text-[14px] top-[81px] whitespace-nowrap">
+                <p className="leading-[20px]">View project schedules</p>
+            </div>
+            <MonthlyWeeklyDaily />
+            <ProjectsDropdown />
+            <WarningCardItemsExtend />
+            <DotsStatus />
+            <GanttChart />
+            <div
+                className="absolute border-[#d5e1ff] border-r border-solid h-[704px] left-[calc(25%+77px)] right-[calc(50%+107px)] top-[308.5px]"
+                data-name="VerticalBorder"
+            />
+            <div
+                className="absolute bg-[rgba(0,114,255,0.04)] border-[#d5e1ff] border-r border-solid h-[704px] left-[calc(25%+189px)] right-[calc(50%-5px)] top-[308.5px]"
+                data-name="Overlay+VerticalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-r border-solid h-[704px] left-[calc(50%+5px)] right-[calc(25%+179px)] top-[308.5px]"
+                data-name="VerticalBorder"
+            />
+            <div
+                className="absolute bg-[rgba(0,114,255,0.04)] border-[#d5e1ff] border-r border-solid h-[704px] left-[calc(50%+117px)] right-[calc(25%+67px)] top-[308.5px]"
+                data-name="Overlay+VerticalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-r border-solid h-[704px] left-[calc(50%+229px)] right-[251px] top-[308.5px]"
+                data-name="VerticalBorder"
+            />
+            <div
+                className="absolute bg-[rgba(0,114,255,0.04)] border-[#d5e1ff] border-r border-solid h-[704px] left-[calc(75%+45px)] right-[139px] top-[308.5px]"
+                data-name="Overlay+VerticalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-r border-solid h-[704px] left-[calc(75%+157px)] right-[27px] top-[308.5px]"
+                data-name="VerticalBorder"
+            />
+            <div
+                className="absolute bg-[rgba(0,114,255,0.04)] border-[#d5e1ff] border-r border-solid h-[704px] left-[calc(100%-27px)] right-[-85px] top-[308.5px]"
+                data-name="Overlay+VerticalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-r border-solid h-[704px] left-[calc(100%+85px)] right-[-197px] top-[308.5px]"
+                data-name="VerticalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[308.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[352.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[396.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[440.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[484.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[528.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[572.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[616.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[660.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[704.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[748.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[792.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[836.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[880.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[924.5px]"
+                data-name="HorizontalBorder"
+            />
+            <div
+                className="absolute border-[#d5e1ff] border-b border-solid h-[44px] left-[calc(25%+77px)] right-[-197px] top-[968.5px]"
+                data-name="HorizontalBorder"
+            />
+            <VerticalDivider />
+            <VerticalDivider1 />
+            <div
+                className="absolute bg-[rgba(255,255,255,0.4)] h-[704px] left-[calc(50%+117px)] right-[calc(25%+178px)] top-[308.5px]"
+                data-name="Vertical Divider"
+            />
+            <Background3 />
+            <Background4 />
+            <Background5 />
+            <Background6 />
+            <Background7 />
+            <Background8 />
+            <Background9 />
+            <Background10 />
+            <Background11 />
+            <Background12 />
+            <Background13 />
+            <Background14 />
+            <Background15 />
+            <Background16 />
+            <Background17 />
+            <Background18 />
+            <Background19 />
         </div>
     );
 }
@@ -2285,7 +2785,7 @@ function SearchBar() {
     );
 }
 
-function Svg23() {
+function Svg18() {
     return (
         <div
             className="relative shrink-0 size-[16px]"
@@ -2404,7 +2904,7 @@ function Svg23() {
     );
 }
 
-function Container2() {
+function Container34() {
     return (
         <div
             className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative"
@@ -2432,7 +2932,7 @@ function TabTitle() {
     );
 }
 
-function Svg24() {
+function Svg19() {
     return (
         <div
             className="relative shrink-0 size-[16px]"
@@ -2551,7 +3051,7 @@ function Svg24() {
     );
 }
 
-function Container3() {
+function Container35() {
     return (
         <div
             className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative"
@@ -2564,7 +3064,7 @@ function Container3() {
     );
 }
 
-function Svg25() {
+function Svg20() {
     return (
         <div
             className="relative shrink-0 size-[16px]"
@@ -2658,7 +3158,7 @@ function Svg25() {
     );
 }
 
-function Container4() {
+function Container36() {
     return (
         <div
             className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative"
@@ -2671,7 +3171,7 @@ function Container4() {
     );
 }
 
-function Svg26() {
+function Svg21() {
     return (
         <div
             className="relative shrink-0 size-[16px]"
@@ -2684,66 +3184,151 @@ function Svg26() {
                 viewBox="0 0 16 16"
             >
                 <g id="SVG">
-                    <path
-                        d="M8.66667 3.33333H14"
-                        id="Vector"
-                        stroke="var(--stroke-0, #0033D9)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="1.33333"
-                    />
-                    <path
-                        d="M8.66667 8H14"
-                        id="Vector_2"
-                        stroke="var(--stroke-0, #0033D9)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="1.33333"
-                    />
-                    <path
-                        d="M8.66667 12.6667H14"
-                        id="Vector_3"
-                        stroke="var(--stroke-0, #0033D9)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="1.33333"
-                    />
-                    <path
-                        d={svgPaths.p245c7a00}
-                        id="Vector_4"
-                        stroke="var(--stroke-0, #0033D9)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="1.33333"
-                    />
-                    <path
-                        d={svgPaths.pbb5d900}
-                        id="Vector_5"
-                        stroke="var(--stroke-0, #0033D9)"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="1.33333"
-                    />
+                    <g id="Vector">
+                        <path
+                            d="M8.66667 3.33333H14"
+                            stroke="var(--stroke-0, #242429)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M8.66667 3.33333H14"
+                            stroke="var(--stroke-1, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M8.66667 3.33333H14"
+                            stroke="var(--stroke-2, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                    </g>
+                    <g id="Vector_2">
+                        <path
+                            d="M8.66667 8H14"
+                            stroke="var(--stroke-0, #242429)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M8.66667 8H14"
+                            stroke="var(--stroke-1, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M8.66667 8H14"
+                            stroke="var(--stroke-2, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                    </g>
+                    <g id="Vector_3">
+                        <path
+                            d="M8.66667 12.6667H14"
+                            stroke="var(--stroke-0, #242429)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M8.66667 12.6667H14"
+                            stroke="var(--stroke-1, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d="M8.66667 12.6667H14"
+                            stroke="var(--stroke-2, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                    </g>
+                    <g id="Vector_4">
+                        <path
+                            d={svgPaths.p245c7a00}
+                            stroke="var(--stroke-0, #242429)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d={svgPaths.p245c7a00}
+                            stroke="var(--stroke-1, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d={svgPaths.p245c7a00}
+                            stroke="var(--stroke-2, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                    </g>
+                    <g id="Vector_5">
+                        <path
+                            d={svgPaths.pbb5d900}
+                            stroke="var(--stroke-0, #242429)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d={svgPaths.pbb5d900}
+                            stroke="var(--stroke-1, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                        <path
+                            d={svgPaths.pbb5d900}
+                            stroke="var(--stroke-2, black)"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeOpacity="0.2"
+                            strokeWidth="1.33333"
+                        />
+                    </g>
                 </g>
             </svg>
         </div>
     );
 }
 
-function Container5() {
+function Container37() {
     return (
         <div
             className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative"
             data-name="Container"
         >
-            <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#0033d9] text-[13px] w-full">
+            <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
                 <p className="leading-[20px]">Deliverable Tracker</p>
             </div>
         </div>
     );
 }
 
-function Svg27() {
+function Svg22() {
     return (
         <div
             className="relative shrink-0 size-[16px]"
@@ -2799,7 +3384,7 @@ function Svg27() {
     );
 }
 
-function Container6() {
+function Container38() {
     return (
         <div
             className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative"
@@ -2812,7 +3397,7 @@ function Container6() {
     );
 }
 
-function Svg28() {
+function Svg23() {
     return (
         <div
             className="relative shrink-0 size-[16px]"
@@ -2825,126 +3410,58 @@ function Svg28() {
                 viewBox="0 0 16 16"
             >
                 <g id="SVG">
-                    <g id="Vector">
-                        <path
-                            d={svgPaths.p19d57600}
-                            stroke="var(--stroke-0, #242429)"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="1.33333"
-                        />
-                        <path
-                            d={svgPaths.p19d57600}
-                            stroke="var(--stroke-1, black)"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeOpacity="0.2"
-                            strokeWidth="1.33333"
-                        />
-                        <path
-                            d={svgPaths.p19d57600}
-                            stroke="var(--stroke-2, black)"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeOpacity="0.2"
-                            strokeWidth="1.33333"
-                        />
-                    </g>
-                    <g id="Vector_2">
-                        <path
-                            d="M6 5.33333H10.6667"
-                            stroke="var(--stroke-0, #242429)"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="1.33333"
-                        />
-                        <path
-                            d="M6 5.33333H10.6667"
-                            stroke="var(--stroke-1, black)"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeOpacity="0.2"
-                            strokeWidth="1.33333"
-                        />
-                        <path
-                            d="M6 5.33333H10.6667"
-                            stroke="var(--stroke-2, black)"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeOpacity="0.2"
-                            strokeWidth="1.33333"
-                        />
-                    </g>
-                    <g id="Vector_3">
-                        <path
-                            d="M5.33333 8H9.33333"
-                            stroke="var(--stroke-0, #242429)"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="1.33333"
-                        />
-                        <path
-                            d="M5.33333 8H9.33333"
-                            stroke="var(--stroke-1, black)"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeOpacity="0.2"
-                            strokeWidth="1.33333"
-                        />
-                        <path
-                            d="M5.33333 8H9.33333"
-                            stroke="var(--stroke-2, black)"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeOpacity="0.2"
-                            strokeWidth="1.33333"
-                        />
-                    </g>
-                    <g id="Vector_4">
-                        <path
-                            d="M7.33333 10.6667H10.6667"
-                            stroke="var(--stroke-0, #242429)"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="1.33333"
-                        />
-                        <path
-                            d="M7.33333 10.6667H10.6667"
-                            stroke="var(--stroke-1, black)"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeOpacity="0.2"
-                            strokeWidth="1.33333"
-                        />
-                        <path
-                            d="M7.33333 10.6667H10.6667"
-                            stroke="var(--stroke-2, black)"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeOpacity="0.2"
-                            strokeWidth="1.33333"
-                        />
-                    </g>
+                    <path
+                        d={svgPaths.p19d57600}
+                        id="Vector"
+                        stroke="var(--stroke-0, #0033D9)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M6 5.33333H10.6667"
+                        id="Vector_2"
+                        stroke="var(--stroke-0, #0033D9)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M5.33333 8H9.33333"
+                        id="Vector_3"
+                        stroke="var(--stroke-0, #0033D9)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
+                    <path
+                        d="M7.33333 10.6667H10.6667"
+                        id="Vector_4"
+                        stroke="var(--stroke-0, #0033D9)"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.33333"
+                    />
                 </g>
             </svg>
         </div>
     );
 }
 
-function Container7() {
+function Container39() {
     return (
         <div
             className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative"
             data-name="Container"
         >
-            <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
+            <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#0033d9] text-[13px] w-full">
                 <p className="leading-[20px]">Timeline Chart</p>
             </div>
         </div>
     );
 }
 
-function Svg29() {
+function Svg24() {
     return (
         <div
             className="relative shrink-0 size-[16px]"
@@ -3063,7 +3580,7 @@ function Svg29() {
     );
 }
 
-function Container8() {
+function Container40() {
     return (
         <div
             className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative"
@@ -3086,47 +3603,47 @@ function Tabs() {
                 className="content-stretch flex gap-[12px] items-center px-[12px] py-[8px] relative rounded-[10px] shrink-0 w-[231px]"
                 data-name="Projects"
             >
-                <Svg24 />
-                <Container3 />
+                <Svg19 />
+                <Container35 />
             </div>
             <div
                 className="content-stretch flex gap-[12px] items-center px-[12px] py-[8px] relative rounded-[10px] shrink-0 w-[231px]"
                 data-name="Templates"
             >
-                <Svg25 />
-                <Container4 />
+                <Svg20 />
+                <Container36 />
             </div>
             <div
                 className="content-stretch flex gap-[12px] h-[36px] items-center px-[12px] py-[8px] relative rounded-[10px] shrink-0 w-[231px]"
-                style={{
-                    backgroundImage:
-                        "linear-gradient(110.649deg, rgba(67, 141, 253, 0.15) 12.682%, rgba(90, 117, 255, 0.15) 69.195%, rgba(115, 0, 255, 0.15) 107.47%)",
-                }}
                 data-name="Projects Tracker"
             >
-                <Svg26 />
-                <Container5 />
+                <Svg21 />
+                <Container37 />
             </div>
             <div
                 className="content-stretch flex gap-[12px] items-center px-[12px] py-[8px] relative rounded-[10px] shrink-0 w-[231px]"
                 data-name="Tasks Tracker"
             >
-                <Svg27 />
-                <Container6 />
+                <Svg22 />
+                <Container38 />
             </div>
             <div
                 className="content-stretch flex gap-[12px] items-center px-[12px] py-[8px] relative rounded-[10px] shrink-0 w-[231px]"
+                style={{
+                    backgroundImage:
+                        "linear-gradient(110.649deg, rgba(67, 141, 253, 0.15) 12.682%, rgba(90, 117, 255, 0.15) 69.195%, rgba(115, 0, 255, 0.15) 107.47%)",
+                }}
                 data-name="Timeline Chart"
             >
-                <Svg28 />
-                <Container7 />
+                <Svg23 />
+                <Container39 />
             </div>
             <div
                 className="content-stretch flex gap-[12px] items-center px-[12px] py-[8px] relative rounded-[10px] shrink-0 w-[231px]"
                 data-name="Project Mobilization"
             >
-                <Svg29 />
-                <Container8 />
+                <Svg24 />
+                <Container40 />
             </div>
         </div>
     );
@@ -3147,7 +3664,7 @@ function TabTitle1() {
     );
 }
 
-function Svg30() {
+function Svg25() {
     return (
         <div
             className="relative shrink-0 size-[16px]"
@@ -3266,20 +3783,20 @@ function Svg30() {
     );
 }
 
-function Container9() {
+function Container41() {
     return (
         <div
             className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative"
             data-name="Container"
         >
             <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-                <p className="leading-[20px]">Project Members</p>
+                <p className="leading-[20px]">Resources</p>
             </div>
         </div>
     );
 }
 
-function Svg31() {
+function Svg26() {
     return (
         <div
             className="relative shrink-0 size-[16px]"
@@ -3548,14 +4065,14 @@ function Svg31() {
     );
 }
 
-function Container10() {
+function Container42() {
     return (
         <div
             className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative"
             data-name="Container"
         >
             <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-                <p className="leading-[20px]">Members Calendar</p>
+                <p className="leading-[20px]">Resource Calendar</p>
             </div>
         </div>
     );
@@ -3571,15 +4088,15 @@ function Tabs1() {
                 className="content-stretch flex gap-[12px] items-center px-[12px] py-[8px] relative rounded-[10px] shrink-0 w-[231px]"
                 data-name="Project Members"
             >
-                <Svg30 />
-                <Container9 />
+                <Svg25 />
+                <Container41 />
             </div>
             <div
                 className="content-stretch flex gap-[12px] items-center px-[12px] py-[8px] relative rounded-[10px] shrink-0 w-[231px]"
                 data-name="Members Calendar"
             >
-                <Svg31 />
-                <Container10 />
+                <Svg26 />
+                <Container42 />
             </div>
         </div>
     );
@@ -3600,7 +4117,7 @@ function TabTitle2() {
     );
 }
 
-function Svg32() {
+function Svg27() {
     return (
         <div
             className="relative shrink-0 size-[16px]"
@@ -3694,7 +4211,7 @@ function Svg32() {
     );
 }
 
-function Container11() {
+function Container43() {
     return (
         <div
             className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative"
@@ -3707,7 +4224,7 @@ function Container11() {
     );
 }
 
-function Svg33() {
+function Svg28() {
     return (
         <div
             className="relative shrink-0 size-[16px]"
@@ -3776,7 +4293,7 @@ function Svg33() {
     );
 }
 
-function Container12() {
+function Container44() {
     return (
         <div
             className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative"
@@ -3799,15 +4316,15 @@ function Tabs2() {
                 className="content-stretch flex gap-[12px] items-center px-[12px] py-[8px] relative rounded-[10px] shrink-0 w-[231px]"
                 data-name="Data Upload"
             >
-                <Svg32 />
-                <Container11 />
+                <Svg27 />
+                <Container43 />
             </div>
             <div
                 className="content-stretch flex gap-[12px] items-center px-[12px] py-[8px] relative rounded-[10px] shrink-0 w-[231px]"
                 data-name="Configuration"
             >
-                <Svg33 />
-                <Container12 />
+                <Svg28 />
+                <Container44 />
             </div>
         </div>
     );
@@ -4890,29 +5407,12 @@ function LogoNameContainer() {
     );
 }
 
-function Grid() {
-    return (
-        <div
-            className="absolute h-[944px] left-[255px] top-[80px] w-[1185px]"
-            data-name="grid"
-        />
-    );
-}
-
-export default function V204ProjectsTracker() {
+export default function V206TimelineChart() {
     return (
         <div
             className="bg-white relative size-full"
-            data-name="v2 - 04 projects tracker"
+            data-name="v2 - 06 timeline chart"
         >
-            <div
-                className="absolute bg-white h-[943px] left-[255px] top-[80px] w-[1869px]"
-                data-name="extended bg - white"
-            />
-            <div
-                className="absolute bg-[#f5fbff] h-[943px] left-[255px] top-[80px] w-[1869px]"
-                data-name="extended bg - blue"
-            />
             <Main />
             <div
                 className="-translate-x-1/2 -translate-y-1/2 absolute h-[1024px] left-1/2 top-1/2 w-[1440px]"
@@ -4943,8 +5443,8 @@ export default function V204ProjectsTracker() {
                             className="content-stretch flex gap-[12px] items-center px-[12px] py-[8px] relative rounded-[10px] shrink-0 w-[231px]"
                             data-name="Dashboard Tab"
                         >
-                            <Svg23 />
-                            <Container2 />
+                            <Svg18 />
+                            <Container34 />
                         </div>
                         <div
                             className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[231px]"
@@ -4975,7 +5475,6 @@ export default function V204ProjectsTracker() {
                 </div>
                 <LogoNameContainer />
             </div>
-            <Grid />
         </div>
     );
 }

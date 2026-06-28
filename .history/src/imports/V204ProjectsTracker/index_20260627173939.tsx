@@ -296,7 +296,7 @@ function ViewTasks() {
             data-name="View Tasks"
         >
             <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-medium justify-center leading-[0] left-0 not-italic text-[#3170ad] text-[13px] top-1/2 whitespace-nowrap">
-                <p className="leading-[20px]">View Activity Tracker</p>
+                <p className="leading-[20px]">View Tasks Tracker</p>
             </div>
             <Svg2 />
         </div>
@@ -822,7 +822,7 @@ function TasksRow1() {
                 <p className="leading-[20px]">MVP</p>
             </div>
             <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[331px] not-italic right-[1382px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Discovery Report</p>
+                <p className="leading-[20px]">Discovery Research Report</p>
             </div>
             <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[478px] not-italic right-[1251px] text-[#5803cf] text-[0px] top-[25.5px] whitespace-nowrap">
                 <p className="font-bold leading-[16.5px] text-[11px]">
@@ -1218,7 +1218,7 @@ function TasksRow4() {
                 <p className="leading-[20px]">MVP</p>
             </div>
             <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[331px] not-italic right-[1382px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Logo Exploration</p>
+                <p className="leading-[20px]">Logo Exploration Set</p>
             </div>
             <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[478px] not-italic right-[1251px] text-[#5803cf] text-[0px] top-[25.5px] whitespace-nowrap">
                 <p className="font-bold leading-[16.5px] text-[11px]">
@@ -1482,7 +1482,7 @@ function TasksRow6() {
                 <p className="leading-[20px]">MVP</p>
             </div>
             <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[331px] not-italic right-[1382px] text-[#17171a] text-[13px] top-[25px] whitespace-nowrap">
-                <p className="leading-[20px]">Launch Plan</p>
+                <p className="leading-[20px]">Launch Communication Plan</p>
             </div>
             <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[478px] not-italic right-[1251px] text-[#5803cf] text-[0px] top-[25.5px] whitespace-nowrap">
                 <p className="font-bold leading-[16.5px] text-[11px]">
@@ -2806,7 +2806,7 @@ function Container6() {
             data-name="Container"
         >
             <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-                <p className="leading-[20px]">Activity Tracker</p>
+                <p className="leading-[20px]">Tasks Tracker</p>
             </div>
         </div>
     );

@@ -4,35 +4,32 @@ function Header() {
   return (
     <div className="[word-break:break-word] absolute contents leading-[0] left-[32px] not-italic right-[calc(75%+20.25px)] top-[32px] whitespace-nowrap" data-name="Header">
       <div className="-translate-y-1/2 absolute flex flex-col font-bold justify-center left-[32px] right-[calc(75%+20.25px)] text-[#17171a] text-[30px] top-[50px] tracking-[-0.5px]">
-        <p className="leading-[normal]">Project Members</p>
+        <p className="leading-[normal]">Resources</p>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col font-normal justify-center left-[32px] right-[calc(75%+215.25px)] text-[#3170ad] text-[14px] top-[80px]">
-        <p className="leading-[20px]">Manage team members, roles, and capacity</p>
+        <p className="leading-[20px]">Manage team resources, roles, and capacity</p>
       </div>
-    </div>
-  );
-}
-
-function Svg() {
-  return (
-    <div className="-translate-y-1/2 absolute left-[16px] size-[16px] top-1/2" data-name="SVG">
-      <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16 16">
-        <g id="SVG">
-          <path d="M3.33333 8H12.6667" id="Vector" stroke="var(--stroke-0, white)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.33333" />
-          <path d="M8 3.33333V12.6667" id="Vector_2" stroke="var(--stroke-0, white)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.33333" />
-        </g>
-      </svg>
     </div>
   );
 }
 
 function AddMemberBtn() {
   return (
-    <div className="absolute bg-[#3170ad] h-[40px] left-[calc(75%+129.25px)] right-[32px] rounded-[10px] top-[46px]" data-name="Add member btn">
-      <div className="absolute bg-[rgba(255,255,255,0)] inset-[0_0.16px_0_0] rounded-[10px] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.1),0px_1px_2px_-1px_rgba(0,0,0,0.1)]" data-name="Button:shadow" />
-      <Svg />
-      <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-medium h-[14px] justify-center leading-[0] left-[calc(50%+13.02px)] not-italic text-[13px] text-center text-white top-1/2 w-[95.04px]">
-        <p className="leading-[20px]">Add Member</p>
+    <div
+      className="absolute content-stretch flex gap-[8px] items-center px-[16px] py-[10px] right-[32px] rounded-[10px] top-[46px]"
+      data-name="Add member btn"
+    >
+      <div className="absolute bg-[#3170ad] inset-0 rounded-[10px] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.1),0px_1px_2px_-1px_rgba(0,0,0,0.1)]" data-name="Button:shadow" />
+      <div className="relative shrink-0 size-[16px]" data-name="SVG">
+        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16 16">
+          <g id="SVG">
+            <path d="M3.33333 8H12.6667" id="Vector" stroke="var(--stroke-0, white)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.33333" />
+            <path d="M8 3.33333V12.6667" id="Vector_2" stroke="var(--stroke-0, white)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.33333" />
+          </g>
+        </svg>
+      </div>
+      <div className="[word-break:break-word] flex flex-col font-medium justify-center leading-[0] not-italic relative shrink-0 text-[13px] text-center text-white whitespace-nowrap">
+        <p className="leading-[20px]">Add Resource</p>
       </div>
     </div>
   );
@@ -86,7 +83,7 @@ function Container() {
   return (
     <div className="absolute h-[17px] left-[36px] overflow-clip right-[12px] top-[10.5px]" data-name="Container">
       <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal h-[14px] justify-center leading-[0] left-0 not-italic text-[#17171a] text-[13px] top-[8px] w-[121.03px]">
-        <p className="leading-[20px]">Search Members</p>
+        <p className="leading-[20px]">Search Resources</p>
       </div>
     </div>
   );
@@ -1671,7 +1668,7 @@ function Container4() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Projects Tracker</p>
+        <p className="leading-[20px]">Deliverable Tracker</p>
       </div>
     </div>
   );
@@ -1702,7 +1699,7 @@ function Container5() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Tasks Tracker</p>
+        <p className="leading-[20px]">Activity Tracker</p>
       </div>
     </div>
   );
@@ -1852,7 +1849,7 @@ function Container8() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#0033d9] text-[13px] w-full">
-        <p className="leading-[20px]">Project Members</p>
+        <p className="leading-[20px]">Resources</p>
       </div>
     </div>
   );
@@ -1923,7 +1920,7 @@ function Container9() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Members Calendar</p>
+        <p className="leading-[20px]">Resource Calendar</p>
       </div>
     </div>
   );

@@ -36,7 +36,7 @@ function Container1() {
   return (
     <div className="absolute content-stretch flex flex-col items-start left-[20px] right-[20px] top-[116px]" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-        <p className="leading-[20px]">Active Members</p>
+        <p className="leading-[20px]">Active Resources</p>
       </div>
     </div>
   );

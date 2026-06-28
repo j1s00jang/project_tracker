@@ -2785,7 +2785,7 @@ function Title() {
             </div>
             <Svg18 />
             <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[337px] not-italic right-[720px] text-[#17171a] text-[11px] top-[calc(50%-11px)] whitespace-nowrap">
-                <p className="leading-[16.5px]">3 Members</p>
+                <p className="leading-[16.5px]">3 Resources</p>
             </div>
             <Background4 />
             <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[364px] not-italic right-[601px] text-[#3170ad] text-[0px] top-[calc(50%+14.5px)] whitespace-nowrap">
@@ -2923,7 +2923,7 @@ function Button1() {
         >
             <Svg20 />
             <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[calc(50%+12.08px)] not-italic text-[#737373] text-[13px] text-center top-1/2 whitespace-nowrap">
-                <p className="leading-[20px]">By Members</p>
+                <p className="leading-[20px]">By Resources</p>
             </div>
         </div>
     );
@@ -3093,7 +3093,7 @@ function MembersCard() {
                 <p className="leading-[24px]">12</p>
             </div>
             <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-normal justify-center leading-[0] left-[64px] not-italic text-[#17171a] text-[12px] top-[calc(50%+14px)] whitespace-nowrap">
-                <p className="leading-[16px]">Members in Flow</p>
+                <p className="leading-[16px]">Resources in Flow</p>
             </div>
         </div>
     );
@@ -4437,7 +4437,7 @@ function Container4() {
             data-name="Container"
         >
             <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-                <p className="leading-[20px]">Projects Tracker</p>
+                <p className="leading-[20px]">Deliverable Tracker</p>
             </div>
         </div>
     );
@@ -4506,7 +4506,7 @@ function Container5() {
             data-name="Container"
         >
             <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-                <p className="leading-[20px]">Tasks Tracker</p>
+                <p className="leading-[20px]">Activity Tracker</p>
             </div>
         </div>
     );
@@ -4905,7 +4905,7 @@ function Container8() {
             data-name="Container"
         >
             <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-                <p className="leading-[20px]">Project Members</p>
+                <p className="leading-[20px]">Resources</p>
             </div>
         </div>
     );
@@ -5187,7 +5187,7 @@ function Container9() {
             data-name="Container"
         >
             <div className="[word-break:break-word] flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#17171a] text-[13px] w-full">
-                <p className="leading-[20px]">Members Calendar</p>
+                <p className="leading-[20px]">Resource Calendar</p>
             </div>
         </div>
     );
